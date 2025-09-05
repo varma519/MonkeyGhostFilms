@@ -14,9 +14,10 @@ const Gallery = () => {
     { id: 5, src: '/cast_crew/po_maruthi.jpeg' },
     { id: 6, src: '/cast_crew/po_sravanthi.jpeg' },
     { id: 7, src: '/cast_crew/grp1.jpg' },
+    { id: 8, src: '/cast_crew/Grp4.jpg' },
     
     // Behind-the-scenes images (bs_*)
-    { id: 8, src: '/cast_crew/bs_1.jpg' },
+    
     { id: 9, src: '/cast_crew/bs_2.jpg' },
     { id: 10, src: '/cast_crew/bs_3.jpg' },
     { id: 11, src: '/cast_crew/bs_4.jpg' },
@@ -26,7 +27,8 @@ const Gallery = () => {
     { id: 15, src: '/cast_crew/bs_8.jpg' },
     { id: 13, src: '/cast_crew/bs_10.jpeg' },
     { id: 14, src: '/cast_crew/bs_11.jpeg' },
-    { id: 15, src: '/cast_crew/bs_13.jpeg' }
+    { id: 15, src: '/cast_crew/bs_13.jpeg' },
+    { id: 16, src: '/cast_crew/bs_1.jpg' },
   ];
 
   const openLightbox = (index: number) => {
