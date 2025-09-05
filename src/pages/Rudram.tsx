@@ -97,14 +97,35 @@ const Rudram = () => {
         {/* Press Links Placeholder */}
         <div className="bg-gray-800 rounded-lg p-8 border border-gold-600/20">
           <h2 className="font-serif text-2xl font-bold text-gold-400 mb-6">Press & Media</h2>
-          <p className="text-gray-400 mb-4">Stay tuned for newspaper articles, web features, and press coverage of Rudram.</p>
-          <div className="grid md:grid-cols-2 gap-4">
-            <div className="bg-gray-700 p-4 rounded">
-              <p className="text-sm text-gray-400">Press links will be added here</p>
+          <p className="text-gray-400 mb-6">Featured coverage of Rudram in major publications.</p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-gray-700 p-6 rounded-lg border border-red-600/20 hover:border-red-500/40 transition-colors">
+              <h3 className="text-gold-400 font-semibold text-lg mb-3">Sahan Journal</h3>
+              <p className="text-gray-300 text-sm mb-4">Arts & Culture coverage featuring Rudram and other independent films</p>
+              <a 
+                href="https://sahanjournal.com/arts-culture/weekend-arts-nunnabove-black-queer-art/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-red-400 hover:text-red-300 font-medium text-sm transition-colors"
+              >
+                Read Article →
+              </a>
             </div>
-            <div className="bg-gray-700 p-4 rounded">
-              <p className="text-sm text-gray-400">Media coverage coming soon</p>
+            <div className="bg-gray-700 p-6 rounded-lg border border-red-600/20 hover:border-red-500/40 transition-colors">
+              <h3 className="text-gold-400 font-semibold text-lg mb-3">Great Andhra</h3>
+              <p className="text-gray-300 text-sm mb-4">Telugu film Rudram made in Minnesota - screening coverage</p>
+              <a 
+                href="https://m.greatandhra.com/movies/news/telugu-film-rudram-made-in-minnesota-screens-sept-14-148967" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-red-400 hover:text-red-300 font-medium text-sm transition-colors"
+              >
+                Read Article →
+              </a>
             </div>
+          </div>
+          <div className="mt-6 text-center">
+            <p className="text-gray-500 text-sm">More press coverage and media features will be added as they become available.</p>
           </div>
         </div>
       </div>
