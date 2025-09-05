@@ -19,7 +19,7 @@ const CastCrew = () => {
     {
       id: 'bhavani-actor',
       name: '[Actor Name]',
-      role: 'Lead Actor',
+      role: 'Lead Actor, Producer',
       character: 'Bhavani',
       bio: 'Dedicated performer bringing depth and authenticity to the role of Bhavani, the DEA investigator whose resilience drives the heart of Rudram.',
       image: 'https://images.pexels.com/photos/8112189/pexels-photo-8112189.jpeg?auto=compress&cs=tinysrgb&w=400',
