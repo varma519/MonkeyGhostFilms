@@ -85,6 +85,64 @@ const Gallery = () => {
           </p>
         </div>
 
+        {/* Posters Section */}
+        <div className="mb-20">
+          <div className="text-center mb-12">
+            <h2 className="font-serif text-3xl md:text-4xl font-bold text-gold-400 mb-4">Posters</h2>
+            <div className="w-16 h-1 bg-red-600 mx-auto mb-6"></div>
+            <p className="text-lg text-gray-300 max-w-xl mx-auto">
+              Official posters and promotional artwork for Rudram
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* Poster 1 - Main Movie Poster */}
+            <div className="group cursor-pointer relative overflow-hidden rounded-lg bg-gray-800 aspect-[3/4]">
+              <img
+                src="https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Rudram Main Poster"
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-white font-semibold text-lg mb-1">Main Poster</h3>
+                  <p className="text-gray-300 text-sm">Official theatrical poster</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Poster 2 - Character Poster */}
+            <div className="group cursor-pointer relative overflow-hidden rounded-lg bg-gray-800 aspect-[3/4]">
+              <img
+                src="https://images.pexels.com/photos/7991621/pexels-photo-7991621.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Rudram Character Poster"
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-white font-semibold text-lg mb-1">Character Poster</h3>
+                  <p className="text-gray-300 text-sm">Featuring the main characters</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Poster 3 - Teaser Poster */}
+            <div className="group cursor-pointer relative overflow-hidden rounded-lg bg-gray-800 aspect-[3/4]">
+              <img
+                src="https://images.pexels.com/photos/7991664/pexels-photo-7991664.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Rudram Teaser Poster"
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-white font-semibold text-lg mb-1">Teaser Poster</h3>
+                  <p className="text-gray-300 text-sm">First look promotional poster</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Gallery Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {galleryImages.map((image, index) => (
