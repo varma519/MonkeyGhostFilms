@@ -194,24 +194,40 @@ I’ll always carry this experience with pride and gratitude—it marks the begi
       quote: 'Rudram turned my teenage dream into a powerful, unforgettable reality.'
     },
     {
-      id: 'supporting2-actor',
-      name: '[Actor Name]',
-      role: 'Supporting Actor',
-      character: '[Character Name]',
-      profession: 'Graphic Designer',
-      bio: 'Bringing authenticity and nuance to their role, helping to create the believable world in which Rudram\'s story unfolds.',
-      image: 'https://images.pexels.com/photos/8112200/pexels-photo-8112200.jpeg?auto=compress&cs=tinysrgb&w=400',
+      id: 'SharmilaShanmugham',
+      name: 'Sharmila Shanmugham',
+      role: 'Actor',
+      character: 'Vimala',
+      profession: 'Tech Professional',
+      bio: `I’ve always enjoyed watching movies whenever I get the time. There’s something comforting and inspiring about immersing myself in different stories and characters. But while I love being a movie enthusiast, acting was never really on my radar.
+
+When Sasi and Ahana first approached me with an opportunity to be part of Rudram, I wasn’t sure if I could pull it off. Acting felt so far from my comfort zone. But with their encouragement—and the blessings of my family—I realized this was a great opportunity to explore something new and step into a completely different creative space.
+
+As Sasi explained more about the role, something changed. The character he envisioned for me felt unique and impactful. I knew this wasn’t just a random role—it was one I had to say yes to.
+
+Rudram has been my first-ever film experience, and it’s one I will always cherish. From day one, the entire team made me feel welcomed and at ease. It didn’t feel like work—it felt like being part of something meaningful, surrounded by passionate people who truly believed in the story we were telling.
+
+I’m grateful to Sasi for bringing me on this journey, and to everyone on the team who made it so memorable. Acting may not have been part of my original plan, but Rudram showed me the magic that happens when you say yes to something unexpected.`,
+      image: '/cast_crew/sharmila.jpg',
       quote: 'The ensemble cast creates a family that extends beyond the screen.'
     },
     {
-      id: 'supporting3-actor',
-      name: '[Actor Name]',
-      role: 'Supporting Actor',
-      character: '[Character Name]',
-      profession: 'Software Developer',
-      bio: 'Delivering a powerful performance that showcases the collaborative spirit and talent that defines the Rudram cast.',
-      image: 'https://images.pexels.com/photos/8112197/pexels-photo-8112197.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Working on Rudram has been an incredible journey of artistic growth.'
+      id: 'PraveenSreekumar',
+      name: 'Praveen Sreekumar',
+      role: 'Actor',
+      character: 'Dhruva',
+      profession: 'Tech Professional',
+      bio: `My interests have always revolved around creativity and movement — from digital art and music to cricket and running. But one passion that has always quietly stayed with me is my fascination with filmmaking, especially everything that happens behind the camera.
+
+I’ve long been intrigued by the technical side of cinema—the lighting, framing, camera angles, and the behind-the-scenes magic that brings stories to life. While I never imagined myself in front of the camera, I’ve always dreamed of being part of the filmmaking process in some form.
+
+When Rudram came along, I saw it as the perfect opportunity to explore that dream. Even though my role wasn’t strictly technical, being involved in the production gave me firsthand exposure to how a film is made—from the passion in every performance to the coordination behind each frame.
+
+The experience was exciting, eye-opening, and full of learning. Working with Sasi and the Rudram crew made me appreciate just how much dedication and teamwork go into even the smallest moments on screen.
+
+I’m grateful for the chance to step into this world and for the memories and insights I gained along the way. Rudram will always remain a special milestone in my creative journey.`,
+      image: '/cast_crew/praveen.jpg',
+      quote: 'Rudram gave me a front-row seat to the magic behind the camera.'
     },
     // Crew Members
     {
