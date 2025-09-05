@@ -93,47 +93,6 @@ const Rudram = () => {
           </div>
         </div>
 
-        {/* Characters Section */}
-        <div className="mb-16">
-          <h2 className="font-serif text-3xl font-bold text-gold-400 mb-8 text-center">Main Characters</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-32 h-32 bg-gray-700 rounded-full mx-auto mb-4 overflow-hidden">
-                <img
-                  src="https://images.pexels.com/photos/8112189/pexels-photo-8112189.jpeg?auto=compress&cs=tinysrgb&w=300"
-                  alt="Bhavani"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-red-400 mb-2">Bhavani</h3>
-              <p className="text-gray-400">DEA Diversion Investigator representing resilience and determination</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-32 h-32 bg-gray-700 rounded-full mx-auto mb-4 overflow-hidden">
-                <img
-                  src="https://images.pexels.com/photos/8112200/pexels-photo-8112200.jpeg?auto=compress&cs=tinysrgb&w=300"
-                  alt="Shivani"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-red-400 mb-2">Shivani</h3>
-              <p className="text-gray-400">Non-verbal autistic sister who becomes the vessel of divine energy</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-32 h-32 bg-gray-700 rounded-full mx-auto mb-4 overflow-hidden">
-                <img
-                  src="https://images.pexels.com/photos/8112197/pexels-photo-8112197.jpeg?auto=compress&cs=tinysrgb&w=300"
-                  alt="Shakthi"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-red-400 mb-2">Shakthi</h3>
-              <p className="text-gray-400">Protective foster sister embodying guardianship and loyalty</p>
-            </div>
-          </div>
-        </div>
 
         {/* Press Links Placeholder */}
         <div className="bg-gray-800 rounded-lg p-8 border border-gold-600/20">
