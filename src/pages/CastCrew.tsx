@@ -229,60 +229,32 @@ I’m grateful for the chance to step into this world and for the memories and i
       image: '/cast_crew/praveen.jpg',
       quote: 'Rudram gave me a front-row seat to the magic behind the camera.'
     },
-    // Crew Members
     {
-      id: 'director',
-      name: '[Director Name]',
-      role: 'Director',
-      profession: 'Film Director',
-      bio: 'Visionary director bringing together mythology and modern storytelling to create a unique cinematic experience that bridges cultural narratives.',
-      image: 'https://images.pexels.com/photos/7991621/pexels-photo-7991621.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Rudram is about finding the divine within ourselves when faced with impossible odds.'
+      id: 'DeepakBhatt',
+      name: 'Deepak Bhatt',
+      role: 'Actor',
+      profession: 'Tech Professional',
+      bio: `I’m a spiritual seeker, tea lover, and lifelong learner who enjoys swimming, playing badminton, and exploring new places. At home, I’m a husband, a father to a curious little boy, and a full-time bug fixer—both in code and in life!
+
+Rudram marked my first step into the world of acting, and though my role was short, the experience was deeply meaningful. What drew me to the project wasn’t just the chance to act—it was the story. The role I played—a doctor who stands up to a corrupt pharmaceutical mafia—spoke to something I genuinely care about. He wasn’t a traditional hero with big action scenes. He was someone who made a brave, conscious choice in a broken system, and paid the price for it. That kind of character felt real and worth portraying.
+
+The shoot spanned just a few days, but every moment on set was filled with energy, learning, and camaraderie. I especially appreciated working with Sasi, our director—his calm, clear, and collaborative style brought out the best in everyone. I still smile when I think about one scene with Gowtham, who had to choke me for the shot—after every take, he kept checking in with, “Are you okay, bro?” That kind of care and respect made the experience even more special.
+
+What stood out most was how each team member brought their own magic to the project. From the cast to the crew, everyone was committed, passionate, and generous with their time and talent. It didn’t feel like a set full of newcomers—it felt like a crew of storytellers with a shared purpose.
+
+Rudram gave me the opportunity to merge purpose and performance. I’ll always be grateful for this experience and proud to be part of a film that aims to spark conversations that matter.
+`,
+      image: '/cast_crew/deepak.jpg',
+      quote: 'Techie by day, actor by chance—Rudram made my first film unforgettable.'
     },
     {
-      id: 'cinematographer',
-      name: '[Cinematographer Name]',
-      role: 'Cinematographer',
-      profession: 'Visual Artist',
+      id: 'AnilKumarKundeti',
+      name: 'Anil Kumar Kundeti',
+      role: 'Director of Photography, Mentor',
+      profession: 'Director, Cinematography',
       bio: 'Creating the visual language of Rudram, capturing both the gritty reality of the drug investigation and the ethereal beauty of mythological elements.',
       image: 'https://images.pexels.com/photos/7991664/pexels-photo-7991664.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Every frame tells a story, and every shadow holds meaning.'
-    },
-    {
-      id: 'producer',
-      name: '[Producer Name]',
-      role: 'Producer',
-      profession: 'Business Executive',
-      bio: 'Overseeing the production of Rudram from conception to completion, ensuring the creative vision is realized while managing all aspects of the filmmaking process.',
-      image: 'https://images.pexels.com/photos/7991473/pexels-photo-7991473.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Independent filmmaking requires passion, persistence, and a belief in the story you\'re telling.'
-    },
-    {
-      id: 'editor',
-      name: '[Editor Name]',
-      role: 'Editor',
-      profession: 'Video Editor',
-      bio: 'Crafting the narrative flow and emotional rhythm of Rudram through precise editing that balances intense drama with mythological elements.',
-      image: 'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Editing is where the magic happens - where footage becomes story.'
-    },
-    {
-      id: 'sound-designer',
-      name: '[Sound Designer Name]',
-      role: 'Sound Designer',
-      profession: 'Audio Engineer',
-      bio: 'Creating the immersive audio landscape that brings Rudram to life, from subtle environmental sounds to the powerful audio of divine transformation.',
-      image: 'https://images.pexels.com/photos/7991633/pexels-photo-7991633.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Sound is the invisible character that guides the audience\'s emotional journey.'
-    },
-    {
-      id: 'music-composer',
-      name: '[Music Composer Name]',
-      role: 'Music Composer',
-      profession: 'Musician',
-      bio: 'Composing the musical score that weaves together contemporary thriller elements with traditional mythological themes to create Rudram\'s unique sound.',
-      image: 'https://images.pexels.com/photos/8112189/pexels-photo-8112189.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Music bridges the gap between the earthly and the divine in Rudram.'
     }
   ];
 
