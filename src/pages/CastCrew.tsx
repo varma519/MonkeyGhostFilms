@@ -190,7 +190,7 @@ Working with the director, Sasi, was incredibly inspiring. His passion, vision, 
 Rudram gave me the opportunity to live my long-held dream, and I couldn’t be more grateful. This journey has been filled with excitement, growth, learning, and above all, joy. I’m so thankful for everyone who believed in me and gave me the space to express myself.
 
 I’ll always carry this experience with pride and gratitude—it marks the beginning of something I’ve always wished for.`,
-      image: '/cast_crew/achala.jpg',
+      image: '/cast_crew/harshitha.jpg',
       quote: 'Rudram turned my teenage dream into a powerful, unforgettable reality.'
     },
     {
