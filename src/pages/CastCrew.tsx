@@ -172,14 +172,26 @@ Rudram has been more than just a film for me—it’s been a journey of rediscov
       quote: 'From tech to theatre—Rudram reignited my passion for storytelling and performance.'
     },
     {
-      id: 'supporting1-actor',
-      name: '[Actor Name]',
-      role: 'Supporting Actor',
-      character: '[Character Name]',
+      id: 'HarshithaKrishnapuram',
+      name: 'Harshitha Krishnapuram',
+      role: 'Actor, sound, Makeup, Line Producer',
+      character: 'Achala',
       profession: 'Student',
-      bio: 'Contributing to the rich tapestry of Rudram with a memorable performance that adds depth to the story\'s emotional core.',
-      image: 'https://images.pexels.com/photos/8112189/pexels-photo-8112189.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Every character in Rudram has a purpose and a story to tell.'
+      bio: `Acting in a film has always been a dream close to my heart. Ever since I was a teenager, I imagined myself in short films and music videos, often daydreaming while watching movies and wondering what it would feel like to step into the world of storytelling. Though I didn’t know when or how it would happen, that dream quietly stayed with me.
+
+After moving to Minnesota, things slowly started falling into place—and that’s when Rudram came into my life.
+
+I’ve always had a deep love for films—not just as a viewer, but for the craft behind them. I’m fascinated by how stories are shaped, how characters evolve, and how much dedication and teamwork go into creating something meaningful. So when I first heard about Rudram, something clicked instantly. The story was powerful, the vision was clear, and I felt an immediate connection.
+
+Playing the role of Achala was such a fulfilling experience. She’s strong, intense, and layered—and I truly enjoyed bringing her to life on screen. It was both fun and challenging, and the emotional depth of the character made the process even more rewarding.
+
+Working with the director, Sasi, was incredibly inspiring. His passion, vision, and attention to detail gave life to the story in a way that resonated with all of us. Being surrounded by such a talented and supportive cast and crew made the experience even more special—it truly felt like a creative family.
+
+Rudram gave me the opportunity to live my long-held dream, and I couldn’t be more grateful. This journey has been filled with excitement, growth, learning, and above all, joy. I’m so thankful for everyone who believed in me and gave me the space to express myself.
+
+I’ll always carry this experience with pride and gratitude—it marks the beginning of something I’ve always wished for.`,
+      image: '/cast_crew/achala.jpg',
+      quote: 'Rudram turned my teenage dream into a powerful, unforgettable reality.'
     },
     {
       id: 'supporting2-actor',
