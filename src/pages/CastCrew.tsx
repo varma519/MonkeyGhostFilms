@@ -152,14 +152,24 @@ Rudram has been more than a project—it’s been a transformative experience. W
       quote: 'Rudram turned a simple yes into a lifelong passion.'
     },
     {
-      id: 'achala-actor',
-      name: '[Actor Name]',
-      role: 'Supporting Actor',
-      character: 'Achala',
-      profession: 'Marketing Professional',
-      bio: 'Portraying the reckless pharmacist Achala, whose poor decisions become a catalyst for the unfolding tragedy.',
-      image: 'https://images.pexels.com/photos/7991621/pexels-photo-7991621.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Achala shows how small compromises can lead to devastating consequences.'
+      id: 'Gowtham Parvathaneni',
+      name: 'Gowtham Parvathaneni',
+      role: 'Actor, Sound',
+      character: 'Subha',
+      profession: 'Tech Professional',
+      bio: `Beyond the world of tech and code, I’ve always had a deep fascination with cinema — for its power to tell stories, evoke emotions, and make us see the world through someone else’s eyes.
+
+My first brush with acting began back in India, during my school and college days. I participated in a few stage dramas and short films—not with the goal of becoming an actor, but out of curiosity and passion. There was something thrilling about stepping into a character’s shoes and living another life, even if just for a few moments. That spark never quite left me.
+
+When the opportunity to be part of Rudram came along, I was drawn in by the script and the chance to portray a morally layered character — something I’d always wanted to explore as an actor. What made the experience truly special, though, was the team behind it. We operated like a close-knit startup rather than a traditional film crew — everyone wore multiple hats, supported each other, and poured their heart into the project.
+
+The entire film was shot in just 10–12 days, but every moment was filled with intensity, learning, and genuine collaboration. From scene rehearsals to helping out with behind-the-scenes tasks, it felt less like a production and more like a creative family working toward a shared dream.
+
+I’m incredibly grateful to the director, Sasi, and his production house for trusting me with this role and for building such a passionate team around this vision. Most importantly, I want to thank my wife for being my biggest cheerleader — her unwavering support and encouragement gave me the confidence to take this leap.
+
+Rudram has been more than just a film for me—it’s been a journey of rediscovery, of reconnecting with an old love, and of pushing past boundaries I’d long accepted. I’m proud to be a part of this story, and I can’t wait for the world to experience the soul we poured into it.`,
+      image: '/cast_crew/gowtham.jpg',
+      quote: 'From tech to theatre—Rudram reignited my passion for storytelling and performance.'
     },
     {
       id: 'supporting1-actor',
