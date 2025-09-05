@@ -17,16 +17,16 @@ const Gallery = () => {
     
     // Behind-the-scenes images (bs_*)
     { id: 8, src: '/cast_crew/bs_1.jpg' },
-    { id: 9, src: '/cast_crew/bs_2.heic' },
-    { id: 10, src: '/cast_crew/bs_3.heic' },
-    { id: 11, src: '/cast_crew/bs_4.heic' },
-    { id: 12, src: '/cast_crew/bs_5.heic' },
-    { id: 13, src: '/cast_crew/bs_6.heic' },
-    { id: 14, src: '/cast_crew/bs_7.heic' },
-    { id: 15, src: '/cast_crew/bs_8.heic' },
-    { id: 13, src: '/cast_crew/bs_10.heic' },
-    { id: 14, src: '/cast_crew/bs_11.heic' },
-    { id: 15, src: '/cast_crew/bs_13.heic' }
+    { id: 9, src: '/cast_crew/bs_2.jpg' },
+    { id: 10, src: '/cast_crew/bs_3.jpg' },
+    { id: 11, src: '/cast_crew/bs_4.jpg' },
+    { id: 12, src: '/cast_crew/bs_5.jpg' },
+    { id: 13, src: '/cast_crew/bs_6.jpg' },
+    { id: 14, src: '/cast_crew/bs_7.jpg' },
+    { id: 15, src: '/cast_crew/bs_8.jpg' },
+    { id: 13, src: '/cast_crew/bs_10.jpg' },
+    { id: 14, src: '/cast_crew/bs_11.jpg' },
+    { id: 15, src: '/cast_crew/bs_13.jpg' }
   ];
 
   const openLightbox = (index: number) => {
