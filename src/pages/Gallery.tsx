@@ -24,9 +24,9 @@ const Gallery = () => {
     { id: 13, src: '/cast_crew/bs_6.jpg' },
     { id: 14, src: '/cast_crew/bs_7.jpg' },
     { id: 15, src: '/cast_crew/bs_8.jpg' },
-    { id: 13, src: '/cast_crew/bs_10.jpg' },
-    { id: 14, src: '/cast_crew/bs_11.jpg' },
-    { id: 15, src: '/cast_crew/bs_13.jpg' }
+    { id: 13, src: '/cast_crew/bs_10.jpeg' },
+    { id: 14, src: '/cast_crew/bs_11.jpeg' },
+    { id: 15, src: '/cast_crew/bs_13.jpeg' }
   ];
 
   const openLightbox = (index: number) => {
