@@ -118,12 +118,6 @@ const Gallery = () => {
                   alt={`Behind the Scenes ${image.id}`}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Lightbox */}
         {selectedImage !== null && (
           <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
             <div className="relative max-w-4xl w-full">
