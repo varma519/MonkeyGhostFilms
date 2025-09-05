@@ -96,7 +96,7 @@ const CastCrew = () => {
       bio: 'Delivering a powerful performance that showcases the collaborative spirit and talent that defines the Rudram cast.',
       image: 'https://images.pexels.com/photos/8112197/pexels-photo-8112197.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Working on Rudram has been an incredible journey of artistic growth.'
-    }
+    },
     // Crew Members
     {
       id: 'director',
