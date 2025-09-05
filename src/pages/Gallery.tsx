@@ -1,3 +1,4 @@
+    ```javascript
 import React, { useState } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -121,15 +122,14 @@ const Gallery = () => {
                 <X size={24} />
               </button>
 
-              {/* Previous button */}
+              {/* Navigation buttons */}
               <button
                 onClick={() => navigateImage('prev')}
                 className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-red-600 hover:bg-red-700 text-white p-2 rounded-full transition-colors"
               >
                 <ChevronLeft size={24} />
               </button>
-
-              {/* Next button */}
+              
               <button
                 onClick={() => navigateImage('next')}
                 className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-red-600 hover:bg-red-700 text-white p-2 rounded-full transition-colors"
@@ -138,18 +138,11 @@ const Gallery = () => {
               </button>
 
               {/* Image */}
-              <div className="bg-gray-900 rounded-lg overflow-hidden">
-                <img
-                  src={galleryImages[selectedImage].src}
-                  alt={`Rudram Gallery Image ${galleryImages[selectedImage].id}`}
-                  className="w-full h-auto max-h-[70vh] object-contain"
-                />
-                <div className="p-6">
-                  <p className="text-gray-500 text-sm mt-2">
-                    {selectedImage + 1} of {galleryImages.length}
-                  </p>
-                </div>
-              </div>
+              <img
+                src={galleryImages[selectedImage].src}
+                alt={`Gallery Image ${galleryImages[selectedImage].id}`}
+                className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
+              />
             </div>
           </div>
         )}
@@ -159,3 +152,4 @@ const Gallery = () => {
 };
 
 export default Gallery;
+```
