@@ -11,10 +11,11 @@ interface Person {
 }
 
 const CastCrew = () => {
+  const [activeSection, setActiveSection] = useState<'cast' | 'crew'>('cast');
   const [activeTab, setActiveTab] = useState<string>('bhavani-actor');
 
-  // Sample cast and crew data - you can replace with actual data
-  const people: Person[] = [
+  // Cast members - 9 total
+  const castMembers: Person[] = [
     {
       id: 'bhavani-actor',
       name: '[Actor Name]',
@@ -52,6 +53,55 @@ const CastCrew = () => {
       quote: 'Every antagonist believes they are the hero of their own story.'
     },
     {
+      id: 'subha-actor',
+      name: '[Actor Name]',
+      role: 'Supporting Actor',
+      character: 'Subha',
+      bio: 'Bringing intensity and menace to the role of Subha, the ruthless enforcer whose actions escalate the conflict to dangerous heights.',
+      image: 'https://images.pexels.com/photos/7991664/pexels-photo-7991664.jpeg?auto=compress&cs=tinysrgb&w=400',
+      quote: 'Subha is driven by loyalty, even when that loyalty leads to darkness.'
+    },
+    {
+      id: 'achala-actor',
+      name: '[Actor Name]',
+      role: 'Supporting Actor',
+      character: 'Achala',
+      bio: 'Portraying the reckless pharmacist Achala, whose poor decisions become a catalyst for the unfolding tragedy.',
+      image: 'https://images.pexels.com/photos/7991621/pexels-photo-7991621.jpeg?auto=compress&cs=tinysrgb&w=400',
+      quote: 'Achala shows how small compromises can lead to devastating consequences.'
+    },
+    {
+      id: 'supporting1-actor',
+      name: '[Actor Name]',
+      role: 'Supporting Actor',
+      character: '[Character Name]',
+      bio: 'Contributing to the rich tapestry of Rudram with a memorable performance that adds depth to the story\'s emotional core.',
+      image: 'https://images.pexels.com/photos/8112189/pexels-photo-8112189.jpeg?auto=compress&cs=tinysrgb&w=400',
+      quote: 'Every character in Rudram has a purpose and a story to tell.'
+    },
+    {
+      id: 'supporting2-actor',
+      name: '[Actor Name]',
+      role: 'Supporting Actor',
+      character: '[Character Name]',
+      bio: 'Bringing authenticity and nuance to their role, helping to create the believable world in which Rudram\'s story unfolds.',
+      image: 'https://images.pexels.com/photos/8112200/pexels-photo-8112200.jpeg?auto=compress&cs=tinysrgb&w=400',
+      quote: 'The ensemble cast creates a family that extends beyond the screen.'
+    },
+    {
+      id: 'supporting3-actor',
+      name: '[Actor Name]',
+      role: 'Supporting Actor',
+      character: '[Character Name]',
+      bio: 'Delivering a powerful performance that showcases the collaborative spirit and talent that defines the Rudram cast.',
+      image: 'https://images.pexels.com/photos/8112197/pexels-photo-8112197.jpeg?auto=compress&cs=tinysrgb&w=400',
+      quote: 'Working on Rudram has been an incredible journey of artistic growth.'
+    }
+  ];
+
+  // Crew members
+  const crewMembers: Person[] = [
+    {
       id: 'director',
       name: '[Director Name]',
       role: 'Director',
@@ -66,10 +116,49 @@ const CastCrew = () => {
       bio: 'Creating the visual language of Rudram, capturing both the gritty reality of the drug investigation and the ethereal beauty of mythological elements.',
       image: 'https://images.pexels.com/photos/7991664/pexels-photo-7991664.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Every frame tells a story, and every shadow holds meaning.'
+    },
+    {
+      id: 'producer',
+      name: '[Producer Name]',
+      role: 'Producer',
+      bio: 'Overseeing the production of Rudram from conception to completion, ensuring the creative vision is realized while managing all aspects of the filmmaking process.',
+      image: 'https://images.pexels.com/photos/7991473/pexels-photo-7991473.jpeg?auto=compress&cs=tinysrgb&w=400',
+      quote: 'Independent filmmaking requires passion, persistence, and a belief in the story you\'re telling.'
+    },
+    {
+      id: 'editor',
+      name: '[Editor Name]',
+      role: 'Editor',
+      bio: 'Crafting the narrative flow and emotional rhythm of Rudram through precise editing that balances intense drama with mythological elements.',
+      image: 'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=400',
+      quote: 'Editing is where the magic happens - where footage becomes story.'
+    },
+    {
+      id: 'sound-designer',
+      name: '[Sound Designer Name]',
+      role: 'Sound Designer',
+      bio: 'Creating the immersive audio landscape that brings Rudram to life, from subtle environmental sounds to the powerful audio of divine transformation.',
+      image: 'https://images.pexels.com/photos/7991633/pexels-photo-7991633.jpeg?auto=compress&cs=tinysrgb&w=400',
+      quote: 'Sound is the invisible character that guides the audience\'s emotional journey.'
+    },
+    {
+      id: 'music-composer',
+      name: '[Music Composer Name]',
+      role: 'Music Composer',
+      bio: 'Composing the musical score that weaves together contemporary thriller elements with traditional mythological themes to create Rudram\'s unique sound.',
+      image: 'https://images.pexels.com/photos/8112189/pexels-photo-8112189.jpeg?auto=compress&cs=tinysrgb&w=400',
+      quote: 'Music bridges the gap between the earthly and the divine in Rudram.'
     }
   ];
 
-  const activePerson = people.find(person => person.id === activeTab) || people[0];
+  const currentPeople = activeSection === 'cast' ? castMembers : crewMembers;
+  const activePerson = currentPeople.find(person => person.id === activeTab) || currentPeople[0];
+
+  // Update active tab when switching sections
+  const handleSectionChange = (section: 'cast' | 'crew') => {
+    setActiveSection(section);
+    setActiveTab(section === 'cast' ? castMembers[0].id : crewMembers[0].id);
+  };
 
   return (
     <div className="pt-20 min-h-screen bg-gray-900">
@@ -82,11 +171,37 @@ const CastCrew = () => {
           </p>
         </div>
 
+        {/* Section Toggle */}
+        <div className="flex justify-center mb-12">
+          <div className="bg-gray-800 rounded-lg p-1 border border-red-600/20">
+            <button
+              onClick={() => handleSectionChange('cast')}
+              className={`px-8 py-3 rounded-md font-semibold transition-all duration-300 ${
+                activeSection === 'cast'
+                  ? 'bg-red-600 text-white shadow-lg'
+                  : 'text-gray-300 hover:text-white hover:bg-gray-700'
+              }`}
+            >
+              Cast ({castMembers.length})
+            </button>
+            <button
+              onClick={() => handleSectionChange('crew')}
+              className={`px-8 py-3 rounded-md font-semibold transition-all duration-300 ${
+                activeSection === 'crew'
+                  ? 'bg-red-600 text-white shadow-lg'
+                  : 'text-gray-300 hover:text-white hover:bg-gray-700'
+              }`}
+            >
+              Crew ({crewMembers.length})
+            </button>
+          </div>
+        </div>
+
         <div className="grid lg:grid-cols-4 gap-8">
           {/* Tab Navigation */}
           <div className="lg:col-span-1">
-            <div className="space-y-2">
-              {people.map((person) => (
+            <div className="space-y-2 max-h-96 overflow-y-auto">
+              {currentPeople.map((person) => (
                 <button
                   key={person.id}
                   onClick={() => setActiveTab(person.id)}
