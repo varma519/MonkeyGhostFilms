@@ -1,17 +1,3 @@
-    { id: 4, src: '/cast_crew/po_harshitha.jpeg' },
-    { id: 5, src: '/cast_crew/po_maruthi.jpeg' },
-    { id: 6, src: '/cast_crew/po_sravanthi.jpeg' },
-    { id: 7, src: '/cast_crew/grp1.jpg' },
-    
-    // Behind-the-scenes images (bs_*)
-    { id: 8, src: '/cast_crew/bs_1.heic' },
-    { id: 9, src: '/cast_crew/bs_2.heic' },
-    { id: 10, src: '/cast_crew/bs_3.heic' },
-    { id: 11, src: '/cast_crew/bs_4.heic' },
-    { id: 12, src: '/cast_crew/bs_5.heic' },
-    { id: 13, src: '/cast_crew/bs_6.heic' },
-    { id: 14, src: '/cast_crew/bs_7.heic' },
-    { id: 15, src: '/cast_crew/bs_8.heic' }
 import React, { useState } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -118,6 +104,12 @@ const Gallery = () => {
                   alt={`Behind the Scenes ${image.id}`}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Lightbox */}
         {selectedImage !== null && (
           <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
             <div className="relative max-w-4xl w-full">
@@ -125,11 +117,45 @@ const Gallery = () => {
               <button
                 onClick={closeLightbox}
                 className="absolute top-4 right-4 z-10 bg-red-600 hover:bg-red-700 text-white p-2 rounded-full transition-colors"
-    // Poster images (po_* and grp_*)
               >
-    { id: 1, src: '/cast_crew/po_ahana.jpeg' },
-};
-    { id: 2, src: '/cast_crew/po_amani.jpeg' },
+                <X size={24} />
+              </button>
 
-    { id: 3, src: '/cast_crew/po_gowtham.jpeg' },
+              {/* Previous button */}
+              <button
+                onClick={() => navigateImage('prev')}
+                className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-red-600 hover:bg-red-700 text-white p-2 rounded-full transition-colors"
+              >
+                <ChevronLeft size={24} />
+              </button>
+
+              {/* Next button */}
+              <button
+                onClick={() => navigateImage('next')}
+                className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-red-600 hover:bg-red-700 text-white p-2 rounded-full transition-colors"
+              >
+                <ChevronRight size={24} />
+              </button>
+
+              {/* Image */}
+              <div className="bg-gray-900 rounded-lg overflow-hidden">
+                <img
+                  src={galleryImages[selectedImage].src}
+                  alt={`Rudram Gallery Image ${galleryImages[selectedImage].id}`}
+                  className="w-full h-auto max-h-[70vh] object-contain"
+                />
+                <div className="p-6">
+                  <p className="text-gray-500 text-sm mt-2">
+                    {selectedImage + 1} of {galleryImages.length}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
 export default Gallery;
