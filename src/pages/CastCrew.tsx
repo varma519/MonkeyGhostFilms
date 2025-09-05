@@ -169,7 +169,7 @@ const CastCrew = () => {
                 <button
                   key={person.id}
                   onClick={() => setActiveTab(person.id)}
-                  className={`w-full text-left p-2 rounded-lg transition-all duration-300 ${
+                  className={`w-32 text-left p-2 rounded-lg transition-all duration-300 ${
                     activeTab === person.id
                       ? 'bg-red-600 text-white shadow-lg'
                       : 'bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white'
