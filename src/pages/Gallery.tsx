@@ -23,7 +23,10 @@ const Gallery = () => {
     { id: 12, src: '/cast_crew/bs_5.heic' },
     { id: 13, src: '/cast_crew/bs_6.heic' },
     { id: 14, src: '/cast_crew/bs_7.heic' },
-    { id: 15, src: '/cast_crew/bs_8.heic' }
+    { id: 15, src: '/cast_crew/bs_8.heic' },
+    { id: 13, src: '/cast_crew/bs_10.heic' },
+    { id: 14, src: '/cast_crew/bs_11.heic' },
+    { id: 15, src: '/cast_crew/bs_13.heic' }
   ];
 
   const openLightbox = (index: number) => {
