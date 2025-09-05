@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, Mail, Instagram, Facebook, Youtube } from 'lucide-react';
+import { Send, Mail, Instagram, Youtube } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -109,10 +109,10 @@ const Contact = () => {
               </div>
               <p className="text-gray-300 mb-3">Reach us directly at:</p>
               <a
-                href="mailto:monkeyghostfilms@gmail.com"
+                href="mailto:Monkeyghostfilms@gmail.com"
                 className="text-white font-mono text-lg hover:text-red-400 transition-colors"
               >
-                monkeyghostfilms@gmail.com
+                Monkeyghostfilms@gmail.com
               </a>
             </div>
 
@@ -121,7 +121,9 @@ const Contact = () => {
               <h3 className="text-xl font-semibold text-gold-400 mb-6">Follow Our Journey</h3>
               <div className="space-y-4">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/rudramgf/?igsh=MWUyZmUzNHd6dG95ZA%3D%3D#"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center text-gray-300 hover:text-white transition-colors group"
                 >
                   <Instagram className="h-6 w-6 mr-3 text-red-400 group-hover:text-red-300" />
@@ -129,15 +131,9 @@ const Contact = () => {
                 </a>
                 
                 <a
-                  href="#"
-                  className="flex items-center text-gray-300 hover:text-white transition-colors group"
-                >
-                  <Facebook className="h-6 w-6 mr-3 text-red-400 group-hover:text-red-300" />
-                  <span>Facebook - Production updates</span>
-                </a>
-                
-                <a
-                  href="#"
+                  href="https://www.youtube.com/@MonkeyGhostFilms"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center text-gray-300 hover:text-white transition-colors group"
                 >
                   <Youtube className="h-6 w-6 mr-3 text-red-400 group-hover:text-red-300" />

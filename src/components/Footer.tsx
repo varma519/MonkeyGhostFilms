@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Film, Instagram, Facebook, Youtube, Mail, Heart } from 'lucide-react';
+import { Film, Instagram, Youtube, Mail, Heart } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -18,16 +18,13 @@ const Footer = () => {
               roots with today's pressing realities. Stories rooted in mythology, powered by human truth.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+              <a href="https://www.instagram.com/rudramgf/?igsh=MWUyZmUzNHd6dG95ZA%3D%3D#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-400 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+              <a href="https://www.youtube.com/@MonkeyGhostFilms" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-400 transition-colors">
                 <Youtube className="h-5 w-5" />
               </a>
-              <a href="mailto:monkeyghostfilms@gmail.com" className="text-gray-400 hover:text-red-400 transition-colors">
+              <a href="mailto:Monkeyghostfilms@gmail.com" className="text-gray-400 hover:text-red-400 transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
             </div>
@@ -80,7 +77,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="mailto:monkeyghostfilms@gmail.com" className="text-gray-400 hover:text-white transition-colors">
+                <a href="mailto:Monkeyghostfilms@gmail.com" className="text-gray-400 hover:text-white transition-colors">
                   Email Us
                 </a>
               </li>
