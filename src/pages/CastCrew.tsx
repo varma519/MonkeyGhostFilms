@@ -237,7 +237,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
                   </span>
                 )}
                 {activePerson.profession && (
-                  <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm">
+                  <span className="bg-purple-600 text-white px-3 py-1 rounded-full text-sm">
                     {activePerson.profession}
                   </span>
                 )}
