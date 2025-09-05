@@ -63,14 +63,28 @@ I'm deeply grateful to my husband, my biggest cheerleader, for believing in me, 
       quote: 'From shy beginnings to screen presence — Rudram awakened an artist I never knew existed.'
     },
     {
-      id: 'shakthi-actor',
-      name: '[Actor Name]',
-      role: 'Supporting Actor',
-      character: 'Shakthi',
-      profession: 'Teacher',
-      bio: 'Embodying the protective spirit of Shakthi, bringing warmth and fierce loyalty to the foster sister who stands as the guardian of the family bond.',
-      image: 'https://images.pexels.com/photos/8112197/pexels-photo-8112197.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Shakthi represents the guardian we all need and the guardian we can all become.'
+      id: 'AhanaChandiniSubahan',
+      name: 'Ahana Chandini Subahan',
+      role: 'Actor, Assit. Director, Choreography, Sound',
+      character: 'Shivani',
+      profession: 'Dance Fitness Entrepreneur, Tech Professional',
+      bio: `I am a full time engineer, a mother of two beautiful girls and I am someone who has always been deeply passionate about any form of arts. Dance has been my first love since I was three years old. From school stages to college festivals, I have constantly found myself immersed in the rhythm of music and movement. My mother was my first cheerleader who recognized and encouraged my passion and now my husband Riyaz is my biggest support as I continue to pursue what makes my soul come alive.
+I reignited my dance journey through Zumba and discovered a way to combine fitness and dance movement . That spark led myself to build AHA Squad Zumba, a platform where passion meets purpose and where every beat inspires confidence. Through AhaSquad, I help people feel confident, energized and connect to their bodies through choreographed dance fitness routines.
+My interest in film:
+Dance has always been part of my identity and my passion. I have always believed that artistic expression is a powerful way to connect with others and with yourself, letting yourself free. Over the years, I’ve explored various dance forms and I’ve remained active in cultural performances, never missing a chance to create or be part of something meaningful.
+Even as I work full-time in technology, my passion for arts never took a back seat. Whether it’s performing, teaching and now acting—ART is at the center of my life.
+What made me act in Rudram:
+Sasi, the man behind Rudram and director of the movie, is not just a colleague but one of my dearest and closest friends and a multi-talented person passionate about filmmaking. He’s my buddy in every sense-we share the same deep-rooted love for art beginning with dance, music and creativity. His passion for film, art, and purpose-driven storytelling instantly resonated with me where our passions naturally supported each other.
+When he shared a one-line idea and his vision on Rudram on a fine day, I was impressed and spellbound. It was about dance, Shiva, power and everything I hold close to my heart. The concept was not only bold and beautiful but spiritual, intense, and emotionally charged. I instantly felt connected to it and I was proud to see my buddy take his first step towards his passion and his drive with sincere dedication to make it happen.
+I never thought I would act until Sasi recognized my passion and envisioned a character in his story that would allow me to truly express myself, especially through my love for dance and emotion. I am incredibly grateful for that. Our shared love for arts laid the foundation for a creative partnership.
+My Rudram Journey:
+Being part of Rudram is deeply personal and a fulfilling experience for me. This isn’t just a film project, this is a collective dream and a passion project— a collaboration born out of friendship, shared passion that came to life through hard work, trust and love for the craft. Rudram beautifully blends Indian mythology, the opioid crisis, the power of sisterhood, and the divine energy of Lord Shiva into a story that is raw, emotional and impactful.
+The role I played allowed me to pour my soul into the screen. The set was filled with talented, passionate, and beautiful people who brought their heart, time and dedication and the energy was magical uplifting each other. 
+My relationship with my sister character Bhavani extends to real life as well. Sravanti, myself and our sisterhood didn’t stop when the cameras stopped rolling. Our real-life connection of love, guidance, and protective affection is deeply genuine and brought authenticity to the sisters’ story, making the on-screen relationship feel lived-in.
+Rudram represents what’s possible when creative souls come together with one shared purpose. I feel truly honored to be part of this journey and I can’t wait for the world to witness the spirit of Rudram 
+`,
+      image: '/cast_crew/ahana.jpg',
+      quote: 'A rhythm of passion, sisterhood, and soul — Rudram is where my art found voice.'
     },
     {
       id: 'vibhi-actor',
