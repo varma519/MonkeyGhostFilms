@@ -85,8 +85,8 @@ const Rudram = () => {
             
             <div className="mt-6 aspect-[3/4] bg-gray-800 rounded-lg overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt="Rudram Behind the Scenes"
+                src="/gen_banner_image.jpg"
+                alt="Rudram Banner"
                 className="w-full h-full object-cover"
               />
             </div>
