@@ -169,16 +169,13 @@ const CastCrew = () => {
                 <button
                   key={person.id}
                   onClick={() => setActiveTab(person.id)}
-                  className={`w-full text-left p-3 rounded-lg transition-all duration-300 ${
+                  className={`w-full text-left p-2 rounded-lg transition-all duration-300 ${
                     activeTab === person.id
                       ? 'bg-red-600 text-white shadow-lg'
                       : 'bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white'
                   }`}
                 >
                   <div className="font-semibold text-sm">{person.name}</div>
-                  <div className="text-xs opacity-80">
-                    {person.character ? `${person.character} - ${person.role}` : person.role}
-                  </div>
                 </button>
               ))}
             </div>
