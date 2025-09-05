@@ -236,7 +236,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
 
         {/* Biography Section - Full Width */}
         <div className="bg-gray-800 rounded-lg p-6 border border-gold-600/20">
-          <h3 className="text-lg font-semibold text-red-400 mb-3">Biography</h3>
+          <h3 className="text-lg font-semibold text-red-400 mb-3">The Story Behind Rudram</h3>
           <div className="text-gray-300 leading-relaxed space-y-4">
             {activePerson.bio.split('\n\n').map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
