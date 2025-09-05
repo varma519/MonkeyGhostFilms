@@ -11,11 +11,11 @@ interface Person {
 }
 
 const CastCrew = () => {
-  const [activeSection, setActiveSection] = useState<'cast' | 'crew'>('cast');
   const [activeTab, setActiveTab] = useState<string>('bhavani-actor');
 
-  // Cast members - 9 total
-  const castMembers: Person[] = [
+  // All team members - Cast and Crew combined
+  const allMembers: Person[] = [
+    // Cast Members
     {
       id: 'bhavani-actor',
       name: '[Actor Name]',
@@ -97,10 +97,7 @@ const CastCrew = () => {
       image: 'https://images.pexels.com/photos/8112197/pexels-photo-8112197.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Working on Rudram has been an incredible journey of artistic growth.'
     }
-  ];
-
-  // Crew members
-  const crewMembers: Person[] = [
+    // Crew Members
     {
       id: 'director',
       name: '[Director Name]',
@@ -151,14 +148,7 @@ const CastCrew = () => {
     }
   ];
 
-  const currentPeople = activeSection === 'cast' ? castMembers : crewMembers;
-  const activePerson = currentPeople.find(person => person.id === activeTab) || currentPeople[0];
-
-  // Update active tab when switching sections
-  const handleSectionChange = (section: 'cast' | 'crew') => {
-    setActiveSection(section);
-    setActiveTab(section === 'cast' ? castMembers[0].id : crewMembers[0].id);
-  };
+  const activePerson = allMembers.find(person => person.id === activeTab) || allMembers[0];
 
   return (
     <div className="pt-20 min-h-screen bg-gray-900">
@@ -171,48 +161,22 @@ const CastCrew = () => {
           </p>
         </div>
 
-        {/* Section Toggle */}
-        <div className="flex justify-center mb-12">
-          <div className="bg-gray-800 rounded-lg p-1 border border-red-600/20">
-            <button
-              onClick={() => handleSectionChange('cast')}
-              className={`px-8 py-3 rounded-md font-semibold transition-all duration-300 ${
-                activeSection === 'cast'
-                  ? 'bg-red-600 text-white shadow-lg'
-                  : 'text-gray-300 hover:text-white hover:bg-gray-700'
-              }`}
-            >
-              Cast ({castMembers.length})
-            </button>
-            <button
-              onClick={() => handleSectionChange('crew')}
-              className={`px-8 py-3 rounded-md font-semibold transition-all duration-300 ${
-                activeSection === 'crew'
-                  ? 'bg-red-600 text-white shadow-lg'
-                  : 'text-gray-300 hover:text-white hover:bg-gray-700'
-              }`}
-            >
-              Crew ({crewMembers.length})
-            </button>
-          </div>
-        </div>
-
-        <div className="grid lg:grid-cols-4 gap-8">
+        <div className="grid lg:grid-cols-5 gap-6">
           {/* Tab Navigation */}
-          <div className="lg:col-span-1">
-            <div className="space-y-2 max-h-96 overflow-y-auto">
-              {currentPeople.map((person) => (
+          <div className="lg:col-span-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-2 max-h-[600px] overflow-y-auto">
+              {allMembers.map((person) => (
                 <button
                   key={person.id}
                   onClick={() => setActiveTab(person.id)}
-                  className={`w-full text-left p-4 rounded-lg transition-all duration-300 ${
+                  className={`w-full text-left p-3 rounded-lg transition-all duration-300 ${
                     activeTab === person.id
                       ? 'bg-red-600 text-white shadow-lg'
                       : 'bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white'
                   }`}
                 >
-                  <div className="font-semibold">{person.name}</div>
-                  <div className="text-sm opacity-80">
+                  <div className="font-semibold text-sm">{person.name}</div>
+                  <div className="text-xs opacity-80">
                     {person.character ? `${person.character} - ${person.role}` : person.role}
                   </div>
                 </button>
