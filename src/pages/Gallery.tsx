@@ -1,4 +1,3 @@
-    ```javascript
 import React, { useState } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
