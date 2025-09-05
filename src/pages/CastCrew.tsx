@@ -197,7 +197,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
             <button
               key={person.id}
               onClick={() => setActiveTab(person.id)}
-              className={\`px-3 py-2 rounded-lg transition-all duration-300 whitespace-nowrap ${
+              className={`px-3 py-2 rounded-lg transition-all duration-300 whitespace-nowrap ${
                 activeTab === person.id
                   ? 'bg-red-600 text-white shadow-lg'
                   : 'bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white'
