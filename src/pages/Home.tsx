@@ -18,7 +18,7 @@ const Home = () => {
         
         <div className="relative z-20 text-center max-w-4xl mx-auto px-4">
           {/* YouTube Teaser Embed */}
-          <div className="max-w-9xl mx-auto mb-8">
+          <div className="w-full max-w-none mx-auto mb-8 px-4">
             <div className="relative aspect-video bg-gray-800 rounded-lg overflow-hidden shadow-2xl">
               <iframe
                 src="https://www.youtube.com/embed/ekuYAGVWP8w?autoplay=1&loop=1&playlist=ekuYAGVWP8w&mute=1&controls=1"
