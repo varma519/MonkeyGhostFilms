@@ -6,54 +6,24 @@ const Gallery = () => {
 
   // Sample gallery images - replace with actual behind-the-scenes photos
   const galleryImages = [
-    {
-      id: 1,
-      src: 'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Behind the Scenes - Director at Work',
-      description: 'Our director guiding the cast through an intense dramatic scene'
-    },
-    {
-      id: 2,
-      src: 'https://images.pexels.com/photos/7991621/pexels-photo-7991621.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Cinematography Setup',
-      description: 'Setting up the perfect shot for a crucial scene'
-    },
-    {
-      id: 3,
-      src: 'https://images.pexels.com/photos/7991664/pexels-photo-7991664.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Cast in Character',
-      description: 'The main cast preparing for an emotional sequence'
-    },
-    {
-      id: 4,
-      src: 'https://images.pexels.com/photos/8112189/pexels-photo-8112189.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'On Set Atmosphere',
-      description: 'Capturing the intense atmosphere during filming'
-    },
-    {
-      id: 5,
-      src: 'https://images.pexels.com/photos/8112197/pexels-photo-8112197.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Character Development',
-      description: 'Working through character motivations and emotions'
-    },
-    {
-      id: 6,
-      src: 'https://images.pexels.com/photos/8112200/pexels-photo-8112200.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Technical Excellence',
-      description: 'Our crew ensuring every technical detail is perfect'
-    },
-    {
-      id: 7,
-      src: 'https://images.pexels.com/photos/7991473/pexels-photo-7991473.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Collaborative Process',
-      description: 'The collaborative spirit that drives our production'
-    },
-    {
-      id: 8,
-      src: 'https://images.pexels.com/photos/7991633/pexels-photo-7991633.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Artistic Vision',
-      description: 'Bringing the artistic vision of Rudram to life'
-    }
+    // Poster images (po_* and grp_*)
+    { id: 1, src: '/cast_crew/po_ahana.jpeg' },
+    { id: 2, src: '/cast_crew/po_amani.jpeg' },
+    { id: 3, src: '/cast_crew/po_gowtham.jpeg' },
+    { id: 4, src: '/cast_crew/po_harshitha.jpeg' },
+    { id: 5, src: '/cast_crew/po_maruthi.jpeg' },
+    { id: 6, src: '/cast_crew/po_sravanthi.jpeg' },
+    { id: 7, src: '/cast_crew/grp1.jpg' },
+    
+    // Behind-the-scenes images (bs_*)
+    { id: 8, src: '/cast_crew/bs_1.heic' },
+    { id: 9, src: '/cast_crew/bs_2.heic' },
+    { id: 10, src: '/cast_crew/bs_3.heic' },
+    { id: 11, src: '/cast_crew/bs_4.heic' },
+    { id: 12, src: '/cast_crew/bs_5.heic' },
+    { id: 13, src: '/cast_crew/bs_6.heic' },
+    { id: 14, src: '/cast_crew/bs_7.heic' },
+    { id: 15, src: '/cast_crew/bs_8.heic' }
   ];
 
   const openLightbox = (index: number) => {
@@ -96,7 +66,7 @@ const Gallery = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {galleryImages.slice(0, 5).map((image, index) => (
+            {galleryImages.slice(0, 7).map((image, index) => (
               <div
                 key={image.id}
                 className="group cursor-pointer relative overflow-hidden rounded-lg bg-gray-800 aspect-[3/4]"
@@ -104,15 +74,9 @@ const Gallery = () => {
               >
                 <img
                   src={image.src}
-                  alt={image.title}
+                  alt={`Rudram Poster ${image.id}`}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-white font-semibold text-lg mb-1">{image.title}</h3>
-                    <p className="text-gray-300 text-sm line-clamp-2">{image.description}</p>
-                  </div>
-                </div>
               </div>
             ))}
           </div>
@@ -129,23 +93,17 @@ const Gallery = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {galleryImages.slice(4).map((image, index) => (
+            {galleryImages.slice(7).map((image, index) => (
               <div
                 key={image.id}
                 className="group cursor-pointer relative overflow-hidden rounded-lg bg-gray-800 aspect-square"
-                onClick={() => openLightbox(index + 4)}
+                onClick={() => openLightbox(index + 7)}
               >
                 <img
                   src={image.src}
-                  alt={image.title}
+                  alt={`Behind the Scenes ${image.id}`}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-white font-semibold text-sm mb-1">{image.title}</h3>
-                    <p className="text-gray-300 text-xs line-clamp-2">{image.description}</p>
-                  </div>
-                </div>
               </div>
             ))}
           </div>
@@ -183,16 +141,10 @@ const Gallery = () => {
               <div className="bg-gray-900 rounded-lg overflow-hidden">
                 <img
                   src={galleryImages[selectedImage].src}
-                  alt={galleryImages[selectedImage].title}
+                  alt={`Rudram Gallery Image ${galleryImages[selectedImage].id}`}
                   className="w-full h-auto max-h-[70vh] object-contain"
                 />
                 <div className="p-6">
-                  <h3 className="text-gold-400 font-semibold text-lg mb-2">
-                    {galleryImages[selectedImage].title}
-                  </h3>
-                  <p className="text-gray-300">
-                    {galleryImages[selectedImage].description}
-                  </p>
                   <p className="text-gray-500 text-sm mt-2">
                     {selectedImage + 1} of {galleryImages.length}
                   </p>
