@@ -256,7 +256,6 @@ I'm deeply grateful to my husband, my biggest cheerleader, for believing in me, 
               
               {activePerson.quote && (
                 <div className="mt-4">
-                  <h3 className="text-lg font-semibold text-red-400 mb-3">On Rudram</h3>
                   <blockquote className="text-gray-300 italic border-l-4 border-gold-400 pl-4">
                     "{activePerson.quote}"
                   </blockquote>
@@ -268,6 +267,7 @@ I'm deeply grateful to my husband, my biggest cheerleader, for believing in me, 
 
         {/* Biography Section - Full Width */}
         <div className="bg-gray-800 rounded-lg p-6 border border-gold-600/20">
+          <h3 className="text-xl font-semibold text-gold-400 mb-4">Journey into Rudram</h3>
           <div className="text-gray-300 leading-relaxed space-y-4">
             {activePerson.bio.split('\n\n').map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
