@@ -16,7 +16,7 @@ const Gallery = () => {
     { id: 7, src: '/cast_crew/grp1.jpg' },
     
     // Behind-the-scenes images (bs_*)
-    { id: 8, src: '/cast_crew/bs_1.heic' },
+    { id: 8, src: '/cast_crew/bs_1.jpg' },
     { id: 9, src: '/cast_crew/bs_2.heic' },
     { id: 10, src: '/cast_crew/bs_3.heic' },
     { id: 11, src: '/cast_crew/bs_4.heic' },
