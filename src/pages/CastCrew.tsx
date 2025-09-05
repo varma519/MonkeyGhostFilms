@@ -126,14 +126,30 @@ I walk away from this project with not just memories, but inspiration — and a 
       quote: 'From curiosity to confidence — Rudram sparked my love for cinema.'
     },
     {
-      id: 'subha-actor',
-      name: '[Actor Name]',
-      role: 'Supporting Actor',
-      character: 'Subha',
-      profession: 'Engineer',
-      bio: 'Bringing intensity and menace to the role of Subha, the ruthless enforcer whose actions escalate the conflict to dangerous heights.',
-      image: 'https://images.pexels.com/photos/7991664/pexels-photo-7991664.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Subha is driven by loyalty, even when that loyalty leads to darkness.'
+      id: 'MaruthiLakkamraju',
+      name: 'Maruthi Lakkamraju',
+      role: 'Actor, Assit. Director, Sound, Tech Help, Prop Artist',
+      character: 'Dr.Vibhi',
+      profession: 'Tech Professional',
+      bio: `I come from a small town in Andhra Pradesh, and Rudram marks my first step into the world of acting. Though I’ve always admired the arts, I never had the opportunity to explore them myself—until now.
+
+
+When Sasi first approached me, I assumed Rudram would be a small, casual short film. But as I spent more time talking to him, I quickly realized this was a passion project built on a strong story and deep conviction. His enthusiasm was contagious—and with the constant support and dedication of his wife, Sravanthi, the energy behind the film felt unstoppable.
+
+
+What began as a casual “yes” turned into something truly meaningful. I was offered a character that I connected with deeply, and the story itself was intense and engaging. Even though all of us actors were newcomers, the camaraderie and focus on set made it feel like a close-knit family. Each day was a new learning experience, and I genuinely looked forward to every scene.
+
+
+The shoot was completed in just 12 days, but it never felt rushed or overwhelming. Each day on set was filled with collaboration and learning, and it never felt like work. I found myself drawn not just to acting, but to the entire filmmaking process.
+
+
+I don’t think I could have done this without the wholehearted support and encouragement from my wife.
+
+
+Rudram has been more than a project—it’s been a transformative experience. Whether or not the film succeeds, I know the joy, passion, and sense of community I felt will stay with me forever. I’m proud to have been part of it.
+`,
+      image: '/cast_crew/maruthi.jpg',
+      quote: 'Rudram turned a simple yes into a lifelong passion.'
     },
     {
       id: 'achala-actor',
