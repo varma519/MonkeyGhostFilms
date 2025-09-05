@@ -81,16 +81,37 @@ const Home = () => {
               </Link>
             </div>
             
-            <div className="relative">
-              <div className="aspect-[3/4] bg-gray-800 rounded-lg overflow-hidden shadow-2xl">
-                <img
-                  src="https://images.pexels.com/photos/7991664/pexels-photo-7991664.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Rudram Film Poster"
-                  className="w-full h-full object-cover"
-                />
+            <div className="bg-gray-800 rounded-lg p-8 border border-red-600/20">
+              <h4 className="font-serif text-2xl font-bold text-gold-400 mb-6">Film Highlights</h4>
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-3 h-3 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <h5 className="text-white font-semibold mb-2">Mythological Depth</h5>
+                    <p className="text-gray-400">Ancient wisdom meets modern storytelling in this unique narrative blend</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-3 h-3 bg-gold-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <h5 className="text-white font-semibold mb-2">Authentic Characters</h5>
+                    <p className="text-gray-400">Complex characters dealing with real-world challenges and extraordinary circumstances</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-3 h-3 bg-gray-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div>
+                    <h5 className="text-white font-semibold mb-2">Independent Vision</h5>
+                    <p className="text-gray-400">Bold storytelling that bridges cultural narratives with contemporary relevance</p>
+                  </div>
+                </div>
               </div>
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-red-600 rounded-full flex items-center justify-center">
-                <Play className="h-8 w-8 text-white ml-1" />
+              
+              <div className="mt-8 pt-6 border-t border-gray-700">
+                <div className="flex items-center justify-between text-sm">
+                  <span className="text-gray-400">Status:</span>
+                  <span className="text-red-400 font-semibold">In Production</span>
+                </div>
               </div>
             </div>
           </div>
