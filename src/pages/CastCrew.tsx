@@ -108,14 +108,22 @@ Rudram represents what's possible when creative souls come together with one sha
       quote: 'A rhythm of passion, sisterhood, and soul — Rudram is where my art found voice.'
     },
     {
-      id: 'vibhi-actor',
-      name: '[Actor Name]',
-      role: 'Antagonist',
-      character: 'Dr. Vibhi',
-      profession: 'Business Consultant',
-      bio: 'Masterfully portraying the manipulative Dr. Vibhi, bringing complexity to the character that drives the central conflict of our story.',
-      image: 'https://images.pexels.com/photos/7991473/pexels-photo-7991473.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Every antagonist believes they are the hero of their own story.'
+      id: 'AamaniGundu',
+      name: 'Aamani Gundu',
+      role: 'Actor, BG Voice',
+      character: 'Sakthi',
+      profession: 'Tech Professional',
+      bio: `As someone completely new to the world of filmmaking, I stepped into Rudram as an amateur but with wide-eyed enthusiasm and a deep willingness to learn. I’ve always believed in trying new things, and this film felt like the perfect opportunity for a new beginning.
+
+What drew me to Rudram was not just the story, but the energy and passion of the people behind it. From day one, I was surrounded by incredibly talented and supportive individuals who patiently introduced me to the nuances of the filmmaking process. Every scene, every rehearsal, every conversation was a window into a world I had never experienced before — a world that requires patience, coordination, creativity, and above all, heart.
+
+The role I played in Rudram challenged me in unexpected ways and gave me a glimpse into the immense dedication it takes to bring a story to life. Watching the crew work so tirelessly behind the scenes — setting up lights, handling equipment, guiding performances, capturing the perfect moment — gave me a whole new respect for every person who contributes to a film, often without ever appearing on screen.
+
+This experience wasn’t just about acting for me. It was about discovery, growth, and being part of something larger than myself. I’m grateful to have been welcomed into the Rudram family and to have played even a small role in a story that carries so much soul and purpose.
+
+I walk away from this project with not just memories, but inspiration — and a newfound appreciation for the magic of cinema.`,
+      image: '/cast_crew/amani.jpg',
+      quote: 'From curiosity to confidence — Rudram sparked my love for cinema.'
     },
     {
       id: 'subha-actor',
