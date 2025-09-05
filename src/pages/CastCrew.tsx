@@ -162,73 +162,77 @@ const CastCrew = () => {
         </div>
 
         <div className="grid lg:grid-cols-5 gap-6">
-          {/* Tab Navigation */}
-          <div className="lg:col-span-2">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-2 max-h-[600px] overflow-y-auto">
+          {/* Name Blocks - Flexible Layout */}
+          <div className="lg:col-span-5">
+            <div className="flex flex-wrap gap-2 mb-8">
               {allMembers.map((person) => (
                 <button
                   key={person.id}
                   onClick={() => setActiveTab(person.id)}
-                  className={`w-32 text-left p-2 rounded-lg transition-all duration-300 ${
+                  className={`px-4 py-2 rounded-lg transition-all duration-300 whitespace-nowrap ${
                     activeTab === person.id
                       ? 'bg-red-600 text-white shadow-lg'
                       : 'bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white'
                   }`}
                 >
-                  <div className="font-semibold text-sm">{person.name}</div>
+                  <span className="font-semibold text-sm">{person.name}</span>
                 </button>
               ))}
             </div>
-          </div>
 
-          {/* Content Area */}
-          <div className="lg:col-span-3">
-            <div className="bg-gray-800 rounded-lg p-8 border border-gold-600/20">
-              <div className="grid md:grid-cols-3 gap-8">
-                {/* Photo */}
-                <div className="md:col-span-1">
-                  <div className="aspect-square bg-gray-700 rounded-lg overflow-hidden">
-                    <img
-                      src={activePerson.image}
-                      alt={activePerson.name}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
+            {/* Content Area */}
+            <div className="grid lg:grid-cols-4 gap-8">
+              {/* Photo */}
+              <div className="lg:col-span-1">
+                <div className="aspect-square bg-gray-700 rounded-lg overflow-hidden">
+                  <img
+                    src={activePerson.image}
+                    alt={activePerson.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
+              </div>
 
-                {/* Details */}
-                <div className="md:col-span-2 space-y-6">
-                  <div>
-                    <h2 className="font-serif text-3xl font-bold text-gold-400 mb-2">
-                      {activePerson.name}
-                    </h2>
-                    <div className="flex flex-wrap gap-2 mb-4">
-                      <span className="bg-red-600 text-white px-3 py-1 rounded-full text-sm">
-                        {activePerson.role}
+              {/* Basic Info */}
+              <div className="lg:col-span-3">
+                <div className="bg-gray-800 rounded-lg p-6 border border-gold-600/20">
+                  <h2 className="font-serif text-3xl font-bold text-gold-400 mb-2">
+                    {activePerson.name}
+                  </h2>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="bg-red-600 text-white px-3 py-1 rounded-full text-sm">
+                      {activePerson.role}
+                    </span>
+                    {activePerson.character && (
+                      <span className="bg-gold-600 text-white px-3 py-1 rounded-full text-sm">
+                        {activePerson.character}
                       </span>
-                      {activePerson.character && (
-                        <span className="bg-gold-600 text-white px-3 py-1 rounded-full text-sm">
-                          {activePerson.character}
-                        </span>
-                      )}
-                    </div>
+                    )}
                   </div>
-
-                  <div>
-                    <h3 className="text-lg font-semibold text-red-400 mb-3">Biography</h3>
-                    <p className="text-gray-300 leading-relaxed">
-                      {activePerson.bio}
-                    </p>
-                  </div>
-
+                  
                   {activePerson.quote && (
-                    <div>
+                    <div className="mt-4">
                       <h3 className="text-lg font-semibold text-red-400 mb-3">On Rudram</h3>
                       <blockquote className="text-gray-300 italic border-l-4 border-gold-400 pl-4">
                         "{activePerson.quote}"
                       </blockquote>
                     </div>
                   )}
+                </div>
+              </div>
+            </div>
+
+            {/* Biography Section - Full Width */}
+            <div className="mt-8">
+              <div className="bg-gray-800 rounded-lg p-6 border border-gold-600/20">
+                <h3 className="text-lg font-semibold text-red-400 mb-3">Biography</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  {activePerson.bio}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
                 </div>
               </div>
             </div>
