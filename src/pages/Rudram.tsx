@@ -23,13 +23,13 @@ const Rudram = () => {
         {/* Teaser Video Section */}
         <div className="max-w-4xl mx-auto mb-16">
           <div className="relative aspect-video bg-gray-800 rounded-lg overflow-hidden shadow-2xl">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center">
-                <Play className="h-20 w-20 text-red-500 mb-4 mx-auto" />
-                <h3 className="text-2xl font-semibold text-white mb-2">Rudram Official Teaser</h3>
-                <p className="text-gray-400">YouTube embed will be placed here</p>
-              </div>
-            </div>
+            <iframe
+              src="https://www.youtube.com/embed/ekuYAGVWP8w?controls=1"
+              title="Rudram Official Teaser"
+              className="w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
         </div>
 
