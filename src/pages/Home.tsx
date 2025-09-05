@@ -110,7 +110,7 @@ const Home = () => {
               <div className="mt-8 pt-6 border-t border-gray-700">
                 <div className="flex items-center justify-between text-sm">
                   <span className="text-gray-400">Status:</span>
-                  <span className="text-red-400 font-semibold">In Production</span>
+                  <span className="text-green-400 font-semibold">Completed</span>
                 </div>
               </div>
             </div>

@@ -70,7 +70,7 @@ const Rudram = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Calendar className="h-5 w-5 text-red-500 mr-3" />
-                  <span className="text-gray-300">In Production</span>
+                  <span className="text-gray-300">Completed</span>
                 </div>
                 <div className="flex items-center">
                   <Users className="h-5 w-5 text-red-500 mr-3" />
