@@ -8,6 +8,7 @@ interface Person {
   bio: string;
   image: string;
   quote?: string;
+  profession?: string;
 }
 
 const CastCrew = () => {
@@ -21,6 +22,7 @@ const CastCrew = () => {
       name: 'Sasi Chakravarthula',
       role: 'Story, Dialogues, Screenplay, Direction, Actor',
       character: 'Arjun',
+      profession: 'IT Professional',
       bio: `I come from Andhra Pradesh, India — a place where cinema isn't just entertainment; it's woven into the emotional and cultural fabric of everyday life. I was one of those kids who grew up in awe of Telugu cinema, completely captivated by Megastar Chiranjeevi. His films shaped the way I saw storytelling, heroism, and performance.
 
 For most of my life, storytelling was something I loved, but never pursued seriously. Life, like it does for many of us, moved in a different direction — careers, family, responsibilities. Yet that urge to tell stories never went away. And now, in a time where technology and community-driven platforms allow even first-time filmmakers to tell meaningful stories, I realized the time to act is now.
@@ -44,6 +46,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       name: '[Actor Name]',
       role: 'Lead Actor',
       character: 'Shivani',
+      profession: 'Healthcare Professional',
       bio: 'Bringing sensitivity and power to the role of Shivani, portraying the complex character who channels divine energy through her unique perspective.',
       image: 'https://images.pexels.com/photos/8112200/pexels-photo-8112200.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Shivani taught me that true strength comes from embracing who you are completely.'
@@ -53,6 +56,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       name: '[Actor Name]',
       role: 'Supporting Actor',
       character: 'Shakthi',
+      profession: 'Teacher',
       bio: 'Embodying the protective spirit of Shakthi, bringing warmth and fierce loyalty to the foster sister who stands as the guardian of the family bond.',
       image: 'https://images.pexels.com/photos/8112197/pexels-photo-8112197.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Shakthi represents the guardian we all need and the guardian we can all become.'
@@ -62,6 +66,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       name: '[Actor Name]',
       role: 'Antagonist',
       character: 'Dr. Vibhi',
+      profession: 'Business Consultant',
       bio: 'Masterfully portraying the manipulative Dr. Vibhi, bringing complexity to the character that drives the central conflict of our story.',
       image: 'https://images.pexels.com/photos/7991473/pexels-photo-7991473.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Every antagonist believes they are the hero of their own story.'
@@ -71,6 +76,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       name: '[Actor Name]',
       role: 'Supporting Actor',
       character: 'Subha',
+      profession: 'Engineer',
       bio: 'Bringing intensity and menace to the role of Subha, the ruthless enforcer whose actions escalate the conflict to dangerous heights.',
       image: 'https://images.pexels.com/photos/7991664/pexels-photo-7991664.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Subha is driven by loyalty, even when that loyalty leads to darkness.'
@@ -80,6 +86,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       name: '[Actor Name]',
       role: 'Supporting Actor',
       character: 'Achala',
+      profession: 'Marketing Professional',
       bio: 'Portraying the reckless pharmacist Achala, whose poor decisions become a catalyst for the unfolding tragedy.',
       image: 'https://images.pexels.com/photos/7991621/pexels-photo-7991621.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Achala shows how small compromises can lead to devastating consequences.'
@@ -89,6 +96,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       name: '[Actor Name]',
       role: 'Supporting Actor',
       character: '[Character Name]',
+      profession: 'Student',
       bio: 'Contributing to the rich tapestry of Rudram with a memorable performance that adds depth to the story\'s emotional core.',
       image: 'https://images.pexels.com/photos/8112189/pexels-photo-8112189.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Every character in Rudram has a purpose and a story to tell.'
@@ -98,6 +106,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       name: '[Actor Name]',
       role: 'Supporting Actor',
       character: '[Character Name]',
+      profession: 'Graphic Designer',
       bio: 'Bringing authenticity and nuance to their role, helping to create the believable world in which Rudram\'s story unfolds.',
       image: 'https://images.pexels.com/photos/8112200/pexels-photo-8112200.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'The ensemble cast creates a family that extends beyond the screen.'
@@ -107,6 +116,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       name: '[Actor Name]',
       role: 'Supporting Actor',
       character: '[Character Name]',
+      profession: 'Software Developer',
       bio: 'Delivering a powerful performance that showcases the collaborative spirit and talent that defines the Rudram cast.',
       image: 'https://images.pexels.com/photos/8112197/pexels-photo-8112197.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Working on Rudram has been an incredible journey of artistic growth.'
@@ -116,6 +126,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       id: 'director',
       name: '[Director Name]',
       role: 'Director',
+      profession: 'Film Director',
       bio: 'Visionary director bringing together mythology and modern storytelling to create a unique cinematic experience that bridges cultural narratives.',
       image: 'https://images.pexels.com/photos/7991621/pexels-photo-7991621.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Rudram is about finding the divine within ourselves when faced with impossible odds.'
@@ -124,6 +135,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       id: 'cinematographer',
       name: '[Cinematographer Name]',
       role: 'Cinematographer',
+      profession: 'Visual Artist',
       bio: 'Creating the visual language of Rudram, capturing both the gritty reality of the drug investigation and the ethereal beauty of mythological elements.',
       image: 'https://images.pexels.com/photos/7991664/pexels-photo-7991664.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Every frame tells a story, and every shadow holds meaning.'
@@ -132,6 +144,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       id: 'producer',
       name: '[Producer Name]',
       role: 'Producer',
+      profession: 'Business Executive',
       bio: 'Overseeing the production of Rudram from conception to completion, ensuring the creative vision is realized while managing all aspects of the filmmaking process.',
       image: 'https://images.pexels.com/photos/7991473/pexels-photo-7991473.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Independent filmmaking requires passion, persistence, and a belief in the story you\'re telling.'
@@ -140,6 +153,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       id: 'editor',
       name: '[Editor Name]',
       role: 'Editor',
+      profession: 'Video Editor',
       bio: 'Crafting the narrative flow and emotional rhythm of Rudram through precise editing that balances intense drama with mythological elements.',
       image: 'https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Editing is where the magic happens - where footage becomes story.'
@@ -148,6 +162,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       id: 'sound-designer',
       name: '[Sound Designer Name]',
       role: 'Sound Designer',
+      profession: 'Audio Engineer',
       bio: 'Creating the immersive audio landscape that brings Rudram to life, from subtle environmental sounds to the powerful audio of divine transformation.',
       image: 'https://images.pexels.com/photos/7991633/pexels-photo-7991633.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Sound is the invisible character that guides the audience\'s emotional journey.'
@@ -156,6 +171,7 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
       id: 'music-composer',
       name: '[Music Composer Name]',
       role: 'Music Composer',
+      profession: 'Musician',
       bio: 'Composing the musical score that weaves together contemporary thriller elements with traditional mythological themes to create Rudram\'s unique sound.',
       image: 'https://images.pexels.com/photos/8112189/pexels-photo-8112189.jpeg?auto=compress&cs=tinysrgb&w=400',
       quote: 'Music bridges the gap between the earthly and the divine in Rudram.'
@@ -218,6 +234,11 @@ In the end, Rudram is a deeply personal film. It's about inner divinity, feminin
                 {activePerson.character && (
                   <span className="bg-gold-600 text-white px-3 py-1 rounded-full text-sm">
                     {activePerson.character}
+                  </span>
+                )}
+                {activePerson.profession && (
+                  <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm">
+                    {activePerson.profession}
                   </span>
                 )}
               </div>
