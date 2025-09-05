@@ -152,8 +152,8 @@ Rudram has been more than a project—it’s been a transformative experience. W
       quote: 'Rudram turned a simple yes into a lifelong passion.'
     },
     {
-      id: 'Gowtham Parvathaneni',
-      name: 'Gowtham Parvathaneni',
+      id: 'Gowtham Parvataneni',
+      name: 'Gowtham Parvataneni',
       role: 'Actor, Sound',
       character: 'Subha',
       profession: 'Tech Professional',
