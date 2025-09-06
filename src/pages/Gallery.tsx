@@ -6,29 +6,30 @@ const Gallery = () => {
 
   // Sample gallery images - replace with actual behind-the-scenes photos
   const galleryImages = [
-    // Poster images (po_* and grp_*)
-    { id: 1, src: '/cast_crew/po_ahana.jpeg' },
-    { id: 2, src: '/cast_crew/po_amani.jpeg' },
-    { id: 3, src: '/cast_crew/po_gowtham.jpeg' },
-    { id: 4, src: '/cast_crew/po_harshitha.jpeg' },
-    { id: 5, src: '/cast_crew/po_maruthi.jpg' },
-    { id: 6, src: '/cast_crew/po_sravanthi.jpeg' },
-    { id: 7, src: '/cast_crew/grp1.jpg' },
-    { id: 8, src: '/cast_crew/Grp4.jpg' },
-    
-    // Behind-the-scenes images (bs_*)
-    
-    { id: 9, src: '/cast_crew/bs_1.jpg' },
-    { id: 10, src: '/cast_crew/bs_2.jpg' },
-    { id: 11, src: '/cast_crew/bs_3.jpg' },
-    { id: 12, src: '/cast_crew/bs_4.jpg' },
-    { id: 13, src: '/cast_crew/bs_5.jpg' },
-    { id: 14, src: '/cast_crew/bs_6.jpg' },
-    { id: 15, src: '/cast_crew/bs_7.jpg' },
-    { id: 16, src: '/cast_crew/bs_8.jpg' },
-    { id: 17, src: '/cast_crew/bs_10.jpeg' },
-    { id: 18, src: '/cast_crew/bs_11.jpeg' },
+    // All images combined for lightbox navigation
+    { id: 1, src: '/cast_crew/po_ahana.jpeg', category: 'poster' },
+    { id: 2, src: '/cast_crew/po_amani.jpeg', category: 'poster' },
+    { id: 3, src: '/cast_crew/po_gowtham.jpeg', category: 'poster' },
+    { id: 4, src: '/cast_crew/po_harshitha.jpeg', category: 'poster' },
+    { id: 5, src: '/cast_crew/po_maruthi.jpg', category: 'poster' },
+    { id: 6, src: '/cast_crew/po_sravanthi.jpeg', category: 'poster' },
+    { id: 7, src: '/cast_crew/grp1.jpg', category: 'poster' },
+    { id: 8, src: '/cast_crew/Grp4.jpg', category: 'poster' },
+    { id: 9, src: '/cast_crew/bs_1.jpg', category: 'behind-scenes' },
+    { id: 10, src: '/cast_crew/bs_2.jpg', category: 'behind-scenes' },
+    { id: 11, src: '/cast_crew/bs_3.jpg', category: 'behind-scenes' },
+    { id: 12, src: '/cast_crew/bs_4.jpg', category: 'behind-scenes' },
+    { id: 13, src: '/cast_crew/bs_5.jpg', category: 'behind-scenes' },
+    { id: 14, src: '/cast_crew/bs_6.jpg', category: 'behind-scenes' },
+    { id: 15, src: '/cast_crew/bs_7.jpg', category: 'behind-scenes' },
+    { id: 16, src: '/cast_crew/bs_8.jpg', category: 'behind-scenes' },
+    { id: 17, src: '/cast_crew/bs_10.jpeg', category: 'behind-scenes' },
+    { id: 18, src: '/cast_crew/bs_11.jpeg', category: 'behind-scenes' },
   ];
+
+  // Filter images by category
+  const posterImages = galleryImages.filter(img => img.category === 'poster');
+  const behindScenesImages = galleryImages.filter(img => img.category === 'behind-scenes');
 
   const openLightbox = (index: number) => {
     setSelectedImage(index);
@@ -70,11 +71,11 @@ const Gallery = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {galleryImages.slice(0, 8).map((image, index) => (
+            {posterImages.map((image, index) => (
               <div
                 key={image.id}
                 className="group cursor-pointer relative overflow-hidden rounded-lg bg-gray-800 aspect-[3/4]"
-                onClick={() => openLightbox(index)}
+                onClick={() => openLightbox(galleryImages.findIndex(img => img.id === image.id))}
               >
                 <img
                   src={image.src}
@@ -97,11 +98,11 @@ const Gallery = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {galleryImages.slice(7).map((image, index) => (
+            {behindScenesImages.map((image, index) => (
               <div
                 key={image.id}
                 className="group cursor-pointer relative overflow-hidden rounded-lg bg-gray-800 aspect-square"
-                onClick={() => openLightbox(index + 7)}
+                onClick={() => openLightbox(galleryImages.findIndex(img => img.id === image.id))}
               >
                 <img
                   src={image.src}
