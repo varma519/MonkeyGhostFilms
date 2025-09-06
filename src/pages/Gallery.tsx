@@ -29,7 +29,6 @@ const Gallery = () => {
     { id: 17, src: '/cast_crew/bs_10.jpeg' },
     { id: 18, src: '/cast_crew/bs_11.jpeg' },
     { id: 19, src: '/cast_crew/bs_13.jpeg' },
-    { id: 20, src: '/cast_crew/Grp4.jpg' },
   ];
 
   const openLightbox = (index: number) => {
