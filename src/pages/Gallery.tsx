@@ -28,7 +28,6 @@ const Gallery = () => {
     { id: 16, src: '/cast_crew/bs_8.jpg' },
     { id: 17, src: '/cast_crew/bs_10.jpeg' },
     { id: 18, src: '/cast_crew/bs_11.jpeg' },
-  ];
 
   const openLightbox = (index: number) => {
     setSelectedImage(index);
