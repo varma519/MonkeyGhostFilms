@@ -44,7 +44,7 @@ const Donate = () => {
             <p className="text-gray-300 mb-4">Quick and secure mobile payments</p>
             <div className="bg-gray-700 rounded p-4">
               <p className="text-sm text-gray-400 mb-2">Phone Number:</p>
-              <p className="text-white font-mono">[Phone number will be provided]</p>
+              <p className="text-white font-mono"></p>
             </div>
             <p className="text-sm text-gray-400 mt-3">
               Use your banking app's Zelle feature to send directly
