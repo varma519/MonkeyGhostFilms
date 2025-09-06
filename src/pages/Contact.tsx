@@ -17,8 +17,18 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
+    
+    // For now, this creates a mailto link that opens the user's email client
+    const subject = encodeURIComponent(`Contact from ${formData.name}`);
+    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
+    const mailtoLink = `mailto:Monkeyghostfilms@gmail.com?subject=${subject}&body=${body}`;
+    
+    // Open user's email client
+    window.location.href = mailtoLink;
+    
+    // Show success message
+    alert('Opening your email client to send the message to MonkeyGhostFilms!');
+    
     // Reset form
     setFormData({ name: '', email: '', message: '' });
   };
@@ -90,11 +100,15 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-300 flex items-center justify-center"
+                  className="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-300 flex items-center justify-center group"
                 >
                   <Send className="h-5 w-5 mr-2" />
-                  Send Message
+                  <span>Send via Email Client</span>
                 </button>
+                
+                <p className="text-sm text-gray-400 mt-3 text-center">
+                  This will open your default email application to send the message to MonkeyGhostFilms
+                </p>
               </form>
             </div>
           </div>
