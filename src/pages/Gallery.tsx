@@ -11,7 +11,7 @@ const Gallery = () => {
     { id: 2, src: '/cast_crew/po_amani.jpeg' },
     { id: 3, src: '/cast_crew/po_gowtham.jpeg' },
     { id: 4, src: '/cast_crew/po_harshitha.jpeg' },
-    { id: 5, src: '/cast_crew/po_maruthi.jpeg' },
+    { id: 5, src: '/cast_crew/po_maruthi.jpg' },
     { id: 6, src: '/cast_crew/po_sravanthi.jpeg' },
     { id: 7, src: '/cast_crew/grp1.jpg' },
     { id: 8, src: '/cast_crew/Grp4.jpg' },
