@@ -14,11 +14,6 @@ const Rudram = () => {
               <span className="bg-gold-600 text-white px-4 py-2 rounded-full font-medium">Thriller</span>
               <span className="bg-gray-600 text-white px-4 py-2 rounded-full font-medium">Mythological Undertones</span>
             </div>
-            <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-              A quiet DEA investigator and her autistic sister uncover a deadly drug empire. 
-              When violence erupts, their bond awakens a divine force rooted in mythology, 
-              transforming their fight for survival into a fight for justice.
-            </p>
           </div>
         </div>
       </section>
