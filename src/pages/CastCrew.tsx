@@ -252,9 +252,23 @@ Rudram gave me the opportunity to merge purpose and performance. I’ll always b
       name: 'Anil Kumar Kundeti',
       role: 'Director of Photography, Mentor',
       profession: 'Director, Cinematography',
-      bio: 'Creating the visual language of Rudram, capturing both the gritty reality of the drug investigation and the ethereal beauty of mythological elements.',
-      image: 'https://images.pexels.com/photos/7991664/pexels-photo-7991664.jpeg?auto=compress&cs=tinysrgb&w=400',
-      quote: 'Every frame tells a story, and every shadow holds meaning.'
+      bio: `My journey with Rudram began when I first came across Sasi’s post in a Minnesota film group. At first, I wasn’t sure how serious it was, but when I spoke with him, I quickly realized his passion and commitment. He invited me to his home to show a version of the film shot on iPhone, and though it was raw and technically limited, I could immediately see the potential and the strong vision behind it. That first meeting convinced me that Sasi wasn’t just experimenting — he was ready to make a real film.
+
+I explained the importance of departments like lighting, audio, and camera work, and he immediately took steps to bring those elements together. Unlike many first-time directors, Sasi was open to learning, quick to adapt, and eager to hear suggestions. He didn’t hold on to ego — instead, he welcomed collaboration. That impressed me deeply and made me want to join this journey.
+
+As we began production, I saw his seriousness grow every day. He planned scenes carefully, respected deadlines, and ensured the entire crew was involved in decision-making. What struck me most was his flexibility: he gave freedom to actors and crew to improvise, which is rare in directors. This openness created a sense of ownership for everyone on set.
+
+Working with the team was an experience I truly enjoyed. Shravanthi played a crucial role in supporting us throughout, making sure we had everything we needed, from meals to logistics, so the set always felt like home. Every person in the team felt valued, and it was like being part of an extended family.
+
+For me, every day on set felt rewarding rather than tiring. I found myself learning as much as I contributed — especially in how Sasi handled people with patience, empathy, and respect. He had a way of motivating everyone to give their best, not through pressure but through trust.
+
+I also admired how quickly he shifted from the iPhone concept to building a professional setup with proper equipment, sound, and lighting. That leap showed me his determination to make Rudram not just a project, but a film of real quality. Seeing the transformation of scenes with proper lighting, crisp audio, and cinematic visuals was inspiring.
+
+Looking back, Rudram was not just a film, but a journey of collaboration, creativity, and trust. It brought together people from different backgrounds, all united by one vision. I feel proud to have contributed to shaping the visual language and to have witnessed Sasi’s growth as a director.
+
+I would gladly work with Sasi and this team again on any project. In fact, I hope Rudram is only the beginning for all of us. This film is proof that passion, hard work, and commitment can overcome limitations and create something meaningful. I believe Rudram will resonate with audiences, and more importantly, it will stand as an example of what can be achieved when a group of people come together with genuine dedication.`,
+      image: '/cast_crew/Anil.jpeg',
+      quote: 'Rudram was not just a film, but a journey of collaboration, creativity, and trust. Every day on set felt rewarding, and being part of Sasi’s vision made me believe in the power of passion and teamwork.'
     }
   ];
 
