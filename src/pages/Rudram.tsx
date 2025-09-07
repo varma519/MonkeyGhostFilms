@@ -18,6 +18,17 @@ const Rudram = () => {
         </div>
       </section>
 
+      {/* IMDb Support Section */}
+      <section className="py-8 bg-gradient-to-r from-red-600/10 to-gold-600/10">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="bg-gray-800/80 rounded-lg p-6 border border-gold-600/30 text-center">
+            <p className="text-lg text-gray-200 leading-relaxed">
+              Our film Rudram is now on IMDb! 🌟 Please support us by rating and leaving your honest review — it helps us reach a wider audience!
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Video and Details Section */}
       <section className="py-16 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4">
