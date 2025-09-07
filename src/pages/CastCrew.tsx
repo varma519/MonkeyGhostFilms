@@ -12,7 +12,7 @@ interface Person {
 }
 
 const CastCrew = () => {
-  const [activeTab, setActiveTab] = useState<string>('bhavani-actor');
+  const [activeTab, setActiveTab] = useState<string>('SasiChakravarthula');
 
   // All team members - Cast and Crew combined
   const allMembers: Person[] = [
