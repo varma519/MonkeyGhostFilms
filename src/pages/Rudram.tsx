@@ -5,7 +5,7 @@ const Rudram = () => {
   return (
     <div className="pt-20 min-h-screen bg-gray-900">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-b from-gray-800 to-gray-900">
+      <section className="relative py-12 bg-gradient-to-b from-gray-800 to-gray-900">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h1 className="font-serif text-6xl md:text-8xl font-bold text-red-500 mb-6">RUDRAM</h1>
