@@ -39,28 +39,9 @@ const Rudram = () => {
             <h2 className="font-serif text-3xl font-bold text-gold-400 mb-6">Synopsis</h2>
             <div className="prose prose-lg prose-invert max-w-none">
               <p className="text-gray-300 leading-relaxed mb-6">
-                <strong className="text-red-400">Rudram</strong> is a tense, emotional thriller interwoven with mythological elements. 
-                At its heart is Bhavani, a DEA Diversion Investigator, and her non-verbal autistic sister Shivani. 
-                Raised in foster care alongside their protective foster sister Shakthi, the trio share an unshakable bond.
+                When a DEA investigator and her non-verbal autistic sister are targeted by a ruthless drug ring, their bond unleashes a mythic fury that turns a personal struggle into a battle between innocence and corruption.
               </p>
               
-              <p className="text-gray-300 leading-relaxed mb-6">
-                When Bhavani uncovers an opioid network led by the manipulative Dr. Vibhi, ruthless enforcer Subha, 
-                and reckless pharmacist Achala, she becomes a target. The attack on her and Shivani triggers something 
-                extraordinary—Shivani channels the divine energy of Shiva, unleashing the cosmic Tandava dance of 
-                destruction and protection.
-              </p>
-              
-              <p className="text-gray-300 leading-relaxed mb-6">
-                The story mirrors modern tragedies of drug abuse with mythological symbolism. Bhavani represents resilience, 
-                Shakthi embodies guardianship, and Shivani becomes the vessel of divine retribution. Their journey is not 
-                just survival—it's transformation.
-              </p>
-              
-              <p className="text-gray-300 leading-relaxed">
-                <strong className="text-gold-400">Rudram explores love, courage, and destiny in the face of overwhelming darkness. 
-                It is both a gripping thriller and a spiritual allegory, where ordinary people discover extraordinary strength.</strong>
-              </p>
             </div>
           </div>
           
