@@ -44,10 +44,12 @@ const Donate = () => {
             <p className="text-gray-300 mb-4">Quick and secure mobile payments</p>
             <div className="bg-gray-700 rounded p-4">
               <p className="text-sm text-gray-400 mb-2">Phone Number:</p>
-              <p className="text-white font-mono"></p>
+              <p className="text-white font-mono">330-631-1320</p>
+              <p className="text-sm text-gray-400 mb-2 mt-4">Email:</p>
+              <p className="text-white font-mono">monkeyghostfilms@gmail.com</p>
             </div>
             <p className="text-sm text-gray-400 mt-3">
-              Use your banking app's Zelle feature to send directly
+              Use your banking app's Zelle feature with either contact method
             </p>
           </div>
 
