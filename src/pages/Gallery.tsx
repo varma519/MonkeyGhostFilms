@@ -15,7 +15,7 @@ const Gallery = () => {
     { id: 6, src: '/cast_crew/po_sravanthi.jpeg', category: 'poster' },
     { id: 7, src: '/cast_crew/grp1.jpg', category: 'poster' },
     { id: 8, src: '/cast_crew/Grp4.jpg', category: 'poster' },
-    { id: 9, src: '/cast_crew/bs_1.jpg', category: 'behind-scenes' },
+    { id: 9, src: '/cast_crew/grp2.jpg', category: 'poster' },
     { id: 10, src: '/cast_crew/bs_2.jpg', category: 'behind-scenes' },
     { id: 11, src: '/cast_crew/bs_3.jpg', category: 'behind-scenes' },
     { id: 12, src: '/cast_crew/bs_4.jpg', category: 'behind-scenes' },
@@ -25,6 +25,7 @@ const Gallery = () => {
     { id: 16, src: '/cast_crew/bs_8.jpg', category: 'behind-scenes' },
     { id: 17, src: '/cast_crew/bs_10.jpeg', category: 'behind-scenes' },
     { id: 18, src: '/cast_crew/bs_11.jpeg', category: 'behind-scenes' },
+    { id: 19, src: '/cast_crew/bs_1.jpg', category: 'behind-scenes' },
   ];
 
   // Filter images by category
