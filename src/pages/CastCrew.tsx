@@ -274,6 +274,10 @@ I would gladly work with Sasi and this team again on any project. In fact, I hop
 
   const activePerson = allMembers.find(person => person.id === activeTab) || allMembers[0];
 
+  // Debug: Log the activeTab and first person's ID
+  console.log('Active Tab:', activeTab);
+  console.log('First Person ID:', allMembers[0]?.id);
+
   return (
     <div className="pt-20 min-h-screen bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 py-16">
