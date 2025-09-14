@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Smartphone, CreditCard, AlertCircle } from 'lucide-react';
+import { Heart, Smartphone, CreditCard, AlertCircle, ExternalLink } from 'lucide-react';
 
 const Donate = () => {
   return (
