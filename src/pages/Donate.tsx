@@ -54,18 +54,28 @@ const Donate = () => {
           </div>
 
           {/* PayPal Payment */}
-          <div className="bg-gray-800 rounded-lg p-6 border border-gold-600/20 hover:border-gold-500/40 transition-colors">
+          <div className="bg-gray-800 rounded-lg p-6 border border-gold-600/20 hover:border-gold-500/40 transition-colors group">
             <div className="flex items-center mb-4">
-              <CreditCard className="h-6 w-6 text-gold-400 mr-3" />
-              <h3 className="text-xl font-semibold text-gold-400">PayPal</h3>
+              <span className="text-2xl mr-3">⭐</span>
+              <h3 className="text-xl font-semibold text-gold-400">Google Reviews</h3>
             </div>
-            <p className="text-gray-300 mb-4">International donations welcome</p>
+            <p className="text-gray-300 mb-4">Share your experience with our films</p>
             <div className="bg-gray-700 rounded p-4">
-              <p className="text-sm text-gray-400 mb-2">PayPal:</p>
-              <p className="text-white font-mono">[PayPal link/email will be provided]</p>
+              <p className="text-sm text-gray-400 mb-2">Help us grow:</p>
+              <p className="text-white text-sm mb-3">Your honest review helps other film enthusiasts discover our work</p>
+              <a 
+                href="https://share.google/Zxb7XMS0nSSMOAc93" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors text-sm"
+              >
+                <span className="mr-2">⭐</span>
+                Leave a Google Review
+                <ExternalLink className="ml-2 h-4 w-4" />
+              </a>
             </div>
             <p className="text-sm text-gray-400 mt-3">
-              Accepts major credit cards and PayPal balance
+              Cast & crew members: Please share your Rudram experience!
             </p>
           </div>
         </div>
