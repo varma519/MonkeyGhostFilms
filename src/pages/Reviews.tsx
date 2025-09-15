@@ -13,40 +13,6 @@ const Reviews = () => {
           </p>
         </div>
 
-        {/* IMDb Section */}
-        <section className="mb-16">
-          <div className="text-center mb-8">
-            <h2 className="font-serif text-3xl font-bold text-gold-400 mb-4">IMDb Rating</h2>
-            <div className="w-16 h-1 bg-red-600 mx-auto"></div>
-          </div>
-          
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-gray-800/90 rounded-lg p-8 border border-gold-600/40 text-center shadow-xl">
-              <div className="mb-4">
-                <span className="text-4xl">🌟</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gold-400 mb-4">Now on IMDb!</h3>
-              <p className="text-lg text-gray-200 leading-relaxed mb-6">
-                Our film <span className="text-red-400 font-semibold">Rudram</span> is now officially on IMDb! 
-                Your support means everything to us. 
-              </p>
-              <a
-                href="https://www.imdb.com/title/tt38192091/?ref_=ttkw_ov_bk"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center bg-yellow-600 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
-              >
-                <span className="mr-2">⭐</span>
-                Rate & Review on IMDb
-                <ExternalLink className="ml-2 h-5 w-5" />
-              </a>
-              <p className="text-sm text-gray-400 mt-4">
-                Your honest reviews help us reach a wider audience!
-              </p>
-            </div>
-          </div>
-        </section>
-
         {/* Google Reviews Section */}
         <section className="mb-16">
           <div className="text-center mb-8">
@@ -78,6 +44,40 @@ const Reviews = () => {
               </div>
               <p className="text-sm text-gray-400 mt-4 text-center">
                 <strong>Cast & crew members:</strong> Please share your Rudram experience and journey with us!
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* IMDb Section */}
+        <section className="mb-16">
+          <div className="text-center mb-8">
+            <h2 className="font-serif text-3xl font-bold text-gold-400 mb-4">IMDb Rating</h2>
+            <div className="w-16 h-1 bg-red-600 mx-auto"></div>
+          </div>
+          
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-gray-800/90 rounded-lg p-8 border border-gold-600/40 text-center shadow-xl">
+              <div className="mb-4">
+                <span className="text-4xl">🌟</span>
+              </div>
+              <h3 className="text-2xl font-bold text-gold-400 mb-4">Now on IMDb!</h3>
+              <p className="text-lg text-gray-200 leading-relaxed mb-6">
+                Our film <span className="text-red-400 font-semibold">Rudram</span> is now officially on IMDb! 
+                Your support means everything to us. 
+              </p>
+              <a
+                href="https://www.imdb.com/title/tt38192091/?ref_=ttkw_ov_bk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center bg-yellow-600 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              >
+                <span className="mr-2">⭐</span>
+                Rate & Review on IMDb
+                <ExternalLink className="ml-2 h-5 w-5" />
+              </a>
+              <p className="text-sm text-gray-400 mt-4">
+                Your honest reviews help us reach a wider audience!
               </p>
             </div>
           </div>
