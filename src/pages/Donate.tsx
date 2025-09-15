@@ -53,31 +53,6 @@ const Donate = () => {
             </p>
           </div>
 
-          {/* PayPal Payment */}
-          <div className="bg-gray-800 rounded-lg p-6 border border-gold-600/20 hover:border-gold-500/40 transition-colors group">
-            <div className="flex items-center mb-4">
-              <span className="text-2xl mr-3">⭐</span>
-              <h3 className="text-xl font-semibold text-gold-400">Google Reviews</h3>
-            </div>
-            <p className="text-gray-300 mb-4">Share your experience with our films</p>
-            <div className="bg-gray-700 rounded p-4">
-              <p className="text-sm text-gray-400 mb-2">Help us grow:</p>
-              <p className="text-white text-sm mb-3">Your honest review helps other film enthusiasts discover our work</p>
-              <a 
-                href="https://www.google.com/search?sca_esv=52a9a0426a099c0c&hl=en&authuser=0&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E2dx7tMKaeG34EItOSolu8EvNhVdZ-jD4O0iG-xSdI0T7cfav-7E-t__DZ_1S_HicevQNESjxjFmt9YxJPnWak_Ed6kSr5jZSeVhF_4Eib3KX3WU8A%3D%3D&q=MonkeyGhostFilms+Productions+Reviews&sa=X&ved=2ahUKEwiB8ZjJm9mPAxW-LtAFHebADGMQ0bkNegQIIBAD&biw=1416&bih=775&dpr=2"
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors text-sm"
-              >
-                <span className="mr-2">⭐</span>
-                Leave a Google Review
-                <ExternalLink className="ml-2 h-4 w-4" />
-              </a>
-            </div>
-            <p className="text-sm text-gray-400 mt-3">
-              Cast & crew members: Please share your Rudram experience!
-            </p>
-          </div>
         </div>
 
         {/* Disclaimer */}

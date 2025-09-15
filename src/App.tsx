@@ -7,6 +7,7 @@ import Rudram from './pages/Rudram';
 import CastCrew from './pages/CastCrew';
 import Gallery from './pages/Gallery';
 import Donate from './pages/Donate';
+import Reviews from './pages/Reviews';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/cast-crew" element={<CastCrew />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/donate" element={<Donate />} />
+            <Route path="/reviews" element={<Reviews />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

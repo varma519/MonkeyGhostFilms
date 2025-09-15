@@ -59,6 +59,11 @@ const Footer = () => {
                   Gallery
                 </Link>
               </li>
+              <li>
+                <Link to="/reviews" className="text-gray-400 hover:text-white transition-colors">
+                  Reviews
+                </Link>
+              </li>
             </ul>
           </div>
 

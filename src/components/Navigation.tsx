@@ -22,6 +22,7 @@ const Navigation = () => {
     { path: '/cast-crew', label: 'Cast & Crew' },
     { path: '/gallery', label: 'Gallery' },
     { path: '/donate', label: 'Donate' },
+    { path: '/reviews', label: 'Reviews' },
     { path: '/contact', label: 'Contact' },
   ];
 
